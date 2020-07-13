@@ -1,0 +1,80 @@
+activecomp {
+  name: "Auryn_Container-Btn-Backdrop-Small"
+  width: 480
+  height: 288
+  defaultcameradistance: 666.666687
+  layer {
+    name: "Backdrop-Shadow-Small.png"
+    id: 814
+    sourceid: 690015176
+    transform {
+      anchorPoint {
+        x: 280
+        y: 163
+      }
+      scale {
+        x: 0.883435607
+        y: 0.883435607
+        z: 1
+      }
+      position {
+        x: 240
+        y: 144
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Btn-Backdrop-Small"
+    id: 815
+    sourceid: 27
+    transform {
+      anchorPoint {
+        x: 228
+        y: 132
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 240
+        y: 144
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  childtemplates: "Auryn_Btn-Backdrop-Small"
+}
+sources {
+  uid: 690015176
+  srctype: AE_IMAGE_SRC
+  name: "Backdrop-Shadow-Small.png"
+  width: 560
+  height: 326
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 27
+  name: "Auryn_Btn-Backdrop-Small.layout"
+  width: 456
+  height: 264
+  copy_source: true
+}

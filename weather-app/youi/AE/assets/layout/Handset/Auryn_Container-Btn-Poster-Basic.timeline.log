@@ -1,0 +1,10 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690016951
+  targetname: "Btn-Poster-Basic"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}

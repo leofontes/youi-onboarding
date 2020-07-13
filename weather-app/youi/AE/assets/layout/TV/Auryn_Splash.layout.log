@@ -1,0 +1,269 @@
+activecomp {
+  name: "Auryn_Splash"
+  width: 1920
+  height: 1080
+  defaultcameradistance: 2666.66675
+  layer {
+    name: "Slash-TV.png"
+    id: 187
+    sourceid: 415
+    transform {
+      anchorPoint {
+        x: 2113.5
+        y: 1024
+      }
+      scale {
+        x: 0.455
+        y: 0.53
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Logo-Hex.png"
+    id: 188
+    sourceid: 690017049
+    transform {
+      anchorPoint {
+        x: 267.5
+        y: 246.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 50
+        y: 50
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 194
+  }
+  layer {
+    name: "Logo-Youi-Text.png"
+    id: 189
+    sourceid: 690017051
+    transform {
+      anchorPoint {
+        x: 154.5
+        y: 71
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 191
+  }
+  layer {
+    name: "Logo-Youi-Large.png"
+    id: 190
+    sourceid: 371
+    transform {
+      anchorPoint {
+        x: 551.5
+        y: 255
+      }
+      scale {
+        x: 0.278104305
+        y: 0.278104305
+        z: 1
+      }
+      position {
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 191
+  }
+  layer {
+    name: "Scale_Ctrl"
+    id: 191
+    sourceid: 690017054
+    transform {
+      anchorPoint {
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 50
+        y: 50
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 194
+  }
+  layer {
+    name: "Loader"
+    id: 192
+    sourceid: 212
+    transform {
+      anchorPoint {
+        x: 50
+        y: 50
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 50
+        y: 144
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 193
+  }
+  layer {
+    name: "ScalePropBottomAnchor"
+    id: 193
+    sourceid: 1480
+    transform {
+      anchorPoint {
+        x: 50
+        y: 100
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 1080
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "ScalePropCenterAnchor"
+    id: 194
+    sourceid: 1480
+    transform {
+      anchorPoint {
+        x: 50
+        y: 50
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  childtemplates: "Auryn_Loader"
+}
+sources {
+  uid: 415
+  srctype: AE_IMAGE_SRC
+  name: "Slash-TV.png"
+  width: 4227
+  height: 2048
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 690017049
+  srctype: AE_IMAGE_SRC
+  name: "Logo-Hex.png"
+  width: 535
+  height: 493
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 690017051
+  srctype: AE_IMAGE_SRC
+  name: "Logo-Youi-Text.png"
+  width: 309
+  height: 142
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 371
+  srctype: AE_IMAGE_SRC
+  name: "Logo-Youi-Large.png"
+  width: 1103
+  height: 510
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 690017054
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+}
+sources {
+  uid: 212
+  name: "Auryn_Loader.layout"
+  width: 100
+  height: 100
+  copy_source: true
+}
+sources {
+  uid: 1480
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+}

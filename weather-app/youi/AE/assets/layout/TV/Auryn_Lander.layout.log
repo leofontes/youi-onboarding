@@ -1,0 +1,108 @@
+activecomp {
+  name: "Auryn_Lander"
+  width: 1920
+  height: 1080
+  defaultcameradistance: 2666.66675
+  layer {
+    name: "Stack"
+    id: 64
+    sourceid: 259843
+    transform {
+      anchorPoint {
+        x: 960
+        y: 450
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 140
+        z: -494
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 66
+  }
+  layer {
+    name: "Nav"
+    id: 65
+    sourceid: 78
+    transform {
+      anchorPoint {
+        x: 960
+        y: 90
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 90
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "ScaleWidthPropLeftAnchor"
+    id: 66
+    sourceid: 1480
+    transform {
+      anchorPoint {
+        y: 50
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        y: 540
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  childtemplates: "Auryn_Lander-ContentStack"
+  childtemplates: "Auryn_Nav"
+}
+sources {
+  uid: 259843
+  name: "Auryn_Lander-ContentStack.layout"
+  width: 1920
+  height: 900
+  copy_source: true
+}
+sources {
+  uid: 78
+  name: "Auryn_Nav.layout"
+  width: 1920
+  height: 180
+  copy_source: true
+}
+sources {
+  uid: 1480
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+}

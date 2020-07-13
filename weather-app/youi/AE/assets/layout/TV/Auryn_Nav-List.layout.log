@@ -1,0 +1,67 @@
+activecomp {
+  name: "Auryn_Nav-List"
+  width: 1450
+  height: 120
+  defaultcameradistance: 2013.88892
+  layer {
+    name: "Container-Btn-Nav-List"
+    id: 690014269
+    sourceid: 690014402
+    transform {
+      anchorPoint {
+        x: 75
+        y: 60
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 225
+        y: 60
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    properties {
+      key: "placeholder"
+      value: "true"
+    }
+  }
+  classname: "CYIListView"
+  bgcolor {
+    alpha: 1
+  }
+  properties {
+    key: "componentSubtype"
+    value: "streaming"
+  }
+  properties {
+    key: "componentType"
+    value: "list"
+  }
+  properties {
+    key: "useComponentScrollingView"
+    value: "true"
+  }
+  properties {
+    key: "clip"
+    value: "false"
+  }
+  properties {
+    key: "insert-after-layer-id"
+    value: "-1"
+  }
+  childtemplates: "Auryn_Container-Btn-Nav-List"
+}
+sources {
+  uid: 690014402
+  name: "Auryn_Container-Btn-Nav-List.layout"
+  width: 150
+  height: 120
+  copy_source: true
+}

@@ -1,0 +1,56 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690017026
+  targetname: "Btn-PlayPause"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: OPACITY
+  targetid: 690017026
+  targetname: "Btn-PlayPause"
+  keytimes {
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 1
+    inttype: AE_INTERP_HOLD
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 1.5
+    inttype: AE_INTERP_HOLD
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 2
+    inttype: AE_INTERP_HOLD
+  }
+  keytimes {
+    timeOffset: 2.5
+    inttype: AE_INTERP_HOLD
+  }
+  trackName: "Opacity"
+}
+markers {
+  starttime: 1
+  duration: 0.5
+  name: "Set-VOD"
+  tracksSelection {
+    targetid: 690017026
+    binding: OPACITY
+  }
+}
+markers {
+  starttime: 2
+  duration: 0.5
+  name: "Set-Live"
+  tracksSelection {
+    targetid: 690017026
+    binding: OPACITY
+  }
+}

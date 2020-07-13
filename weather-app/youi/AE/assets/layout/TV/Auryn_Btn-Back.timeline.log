@@ -1,0 +1,73 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690011939
+  targetname: "Btn-Back-noLine.png"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: OPACITY
+  targetid: 690011939
+  targetname: "Btn-Back-noLine.png"
+  keytimes {
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 1
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 1.08333337
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.6
+  }
+  trackName: "Opacity"
+}
+tracks {
+  binding: SCALE
+  targetid: 690011939
+  targetname: "Btn-Back-noLine.png"
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+    fvalue2: 1
+    fvalue3: 1
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 1
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+    fvalue2: 1
+    fvalue3: 1
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 1.08333337
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.8
+    fvalue2: 0.8
+    fvalue3: 1
+  }
+  trackName: "Scale"
+}
+markers {
+  starttime: 1
+  duration: 0.0833333358
+  name: "Press"
+  tracksSelection {
+    targetid: 690011939
+    binding: OPACITY
+  }
+  tracksSelection {
+    targetid: 690011939
+    binding: SCALE
+  }
+  id: 18
+}

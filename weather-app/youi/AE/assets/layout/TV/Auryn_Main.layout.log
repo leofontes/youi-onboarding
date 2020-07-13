@@ -1,0 +1,45 @@
+activecomp {
+  name: "Auryn_Main"
+  width: 1920
+  height: 1080
+  defaultcameradistance: 2666.66675
+  layer {
+    name: "Content"
+    id: 1
+    sourceid: 624
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.0784313725490196
+    green: 0.21176470588235294
+    blue: 0.44705882352941179
+  }
+  childtemplates: "Auryn_Content"
+}
+sources {
+  uid: 624
+  name: "Auryn_Content.layout"
+  width: 1920
+  height: 1080
+  copy_source: true
+}

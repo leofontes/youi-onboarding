@@ -1,0 +1,113 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 724
+  targetname: "Icon-Search.png"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: OPACITY
+  targetid: 724
+  targetname: "Icon-Search.png"
+  keytimes {
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 2
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 2.01666665
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.6
+  }
+  keytimes {
+    timeOffset: 2.33333325
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 2.35
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.6
+  }
+  trackName: "Opacity"
+}
+tracks {
+  binding: SCALE
+  targetid: 724
+  targetname: "Icon-Search.png"
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.76
+    fvalue2: 0.76
+    fvalue3: 1
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 2
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.76
+    fvalue2: 0.76
+    fvalue3: 1
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 2.01666665
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.62
+    fvalue2: 0.62
+    fvalue3: 1
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 2.33333325
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.76
+    fvalue2: 0.76
+    fvalue3: 1
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 2.35
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.62
+    fvalue2: 0.62
+    fvalue3: 1
+  }
+  trackName: "Scale"
+}
+markers {
+  starttime: 2
+  duration: 0.0166666675
+  name: "Press"
+  tracksSelection {
+    targetid: 724
+    binding: OPACITY
+  }
+  tracksSelection {
+    targetid: 724
+    binding: SCALE
+  }
+  id: 18
+}
+markers {
+  starttime: 2.33333325
+  duration: 0.0166666675
+  name: "Press-Checked"
+  tracksSelection {
+    targetid: 724
+    binding: OPACITY
+  }
+  tracksSelection {
+    targetid: 724
+    binding: SCALE
+  }
+  id: 23
+}

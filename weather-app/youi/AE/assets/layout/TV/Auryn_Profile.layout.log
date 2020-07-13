@@ -1,0 +1,258 @@
+activecomp {
+  name: "Auryn_Profile"
+  width: 1920
+  height: 1080
+  defaultcameradistance: 2666.66675
+  layer {
+    name: "Btn-Profile3"
+    id: 712
+    sourceid: 259687
+    transform {
+      anchorPoint {
+        x: 125
+        y: 200
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 446
+        y: 180
+        z: 250
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 717
+  }
+  layer {
+    name: "Btn-Profile2"
+    id: 713
+    sourceid: 259648
+    transform {
+      anchorPoint {
+        x: 125
+        y: 200
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 50
+        y: 180
+        z: 325
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 717
+  }
+  layer {
+    name: "Btn-Profile1"
+    id: 714
+    sourceid: 259618
+    transform {
+      anchorPoint {
+        x: 125
+        y: 200
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: -356
+        y: 180
+        z: 500
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 717
+  }
+  layer {
+    name: "Title"
+    id: 715
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 440
+        y: 60
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 539.72
+        y: 368.280121
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 38
+      fontColor {
+        alpha: 1
+        red: 1
+        green: 1
+        blue: 1
+      }
+      fontName: "Montserrat-Medium"
+      boundsWidth: 1722
+      boundsHeight: 68
+      isLabel: true
+      text: "Who\342\200\231s Watching?"
+      multiline: true
+    }
+  }
+  layer {
+    name: "Btn-Back"
+    id: 716
+    sourceid: 690011939
+    transform {
+      anchorPoint {
+        x: 50
+        y: 50
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 45
+        y: -113
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 718
+  }
+  layer {
+    name: "ScalePropCenterAnchor"
+    id: 717
+    sourceid: 1480
+    transform {
+      anchorPoint {
+        x: 50
+        y: 50
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "ScalePropTopRightAnchor"
+    id: 718
+    sourceid: 1480
+    transform {
+      anchorPoint {
+        x: 100
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1920
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "gravity"
+    value: "left"
+  }
+  properties {
+    key: "rows"
+    value: "2"
+  }
+  childtemplates: "Auryn_Btn-Profile3"
+  childtemplates: "Auryn_Btn-Profile2"
+  childtemplates: "Auryn_Btn-Profile1"
+  childtemplates: "Auryn_Btn-Back"
+}
+sources {
+  uid: 259687
+  name: "Auryn_Btn-Profile3.layout"
+  width: 250
+  height: 400
+  copy_source: true
+}
+sources {
+  uid: 259648
+  name: "Auryn_Btn-Profile2.layout"
+  width: 250
+  height: 400
+  copy_source: true
+}
+sources {
+  uid: 259618
+  name: "Auryn_Btn-Profile1.layout"
+  width: 250
+  height: 400
+  copy_source: true
+}
+sources {
+  uid: 4
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Medium"
+  copy_source: true
+  file_name: "yi_Montserrat-Medium.otf"
+  style_name: "Medium"
+}
+sources {
+  uid: 690011939
+  name: "Auryn_Btn-Back.layout"
+  width: 100
+  height: 100
+  copy_source: true
+}
+sources {
+  uid: 1480
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+}

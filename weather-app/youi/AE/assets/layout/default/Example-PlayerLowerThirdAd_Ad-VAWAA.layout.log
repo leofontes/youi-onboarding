@@ -1,0 +1,207 @@
+activecomp {
+  name: "Example-PlayerLowerThirdAd_Ad-VAWAA"
+  width: 1920
+  height: 400
+  defaultcameradistance: 2666.66675
+  layer {
+    name: "White Solid 21"
+    id: 690014384
+    sourceid: 690014502
+    transform {
+      anchorPoint {
+        x: 960
+        y: 200
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 200
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Image-Foreground-3.png"
+    id: 690014385
+    sourceid: 663
+    transform {
+      anchorPoint {
+        x: 1046.5
+        y: 308.5
+      }
+      scale {
+        x: 0.99
+        y: 0.99
+        z: 1
+      }
+      position {
+        x: 968
+        y: 817.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Image-Foreground-2.png"
+    id: 690014386
+    sourceid: 661
+    transform {
+      anchorPoint {
+        x: 575.5
+        y: 260
+      }
+      scale {
+        x: 1.83
+        y: 1.83
+        z: 1
+      }
+      position {
+        x: 1256
+        y: 860.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Logo-VAWAA.png"
+    id: 690014387
+    sourceid: 666
+    transform {
+      anchorPoint {
+        x: 108.5
+        y: 26
+      }
+      scale {
+        x: 1.2
+        y: 1.2
+        z: 1
+      }
+      position {
+        x: 1699
+        y: 302.5
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Text"
+    id: 690014388
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 447
+        y: 106
+      }
+      scale {
+        x: 1.2
+        y: 1.2
+        z: 1
+      }
+      position {
+        x: 495
+        y: 377
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 72
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "BrandonGrotesque-Bold"
+      boundsWidth: 678
+      boundsHeight: 88
+      isLabel: true
+      text: "Explore with Vawaa"
+      multiline: true
+      leading: 83
+    }
+    classname: "CYISDFAtlasTextSceneNode"
+    properties {
+      key: "leading"
+      value: "83"
+    }
+  }
+  bgcolor {
+    alpha: 1
+  }
+  properties {
+    key: "clip"
+    value: "false"
+  }
+}
+sources {
+  uid: 690014502
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.89803898334503174
+    green: 0.89803898334503174
+    blue: 0.89803898334503174
+  }
+  width: 1920
+  height: 400
+}
+sources {
+  uid: 663
+  srctype: AE_IMAGE_SRC
+  name: "Image-Foreground-3.png"
+  width: 2093
+  height: 617
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 661
+  srctype: AE_IMAGE_SRC
+  name: "Image-Foreground-2.png"
+  width: 1151
+  height: 520
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 666
+  srctype: AE_IMAGE_SRC
+  name: "Logo-VAWAA.png"
+  width: 217
+  height: 52
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 5
+  srctype: AE_FONT_SRC
+  name: "BrandonGrotesque-Bold"
+  copy_source: true
+  file_name: "yi_Brandon Grotesque-Bold.otf"
+  style_name: "Bold"
+}

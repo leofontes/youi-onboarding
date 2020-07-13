@@ -1,0 +1,75 @@
+activecomp {
+  name: "Example-ListEmbeddedAd_Video-Surface-Container"
+  width: 1920
+  height: 1080
+  defaultcameradistance: 2666.66675
+  layer {
+    name: "Video-Surface"
+    id: 690015224
+    sourceid: 690015195
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Image-Video-Placeholder"
+    id: 690015225
+    sourceid: 690015238
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+  }
+  childtemplates: "Example-ListEmbeddedAd_Video-Surface"
+  childtemplates: "Example-ListEmbeddedAd_Image-Video-Placeholder"
+}
+sources {
+  uid: 690015195
+  name: "Example-ListEmbeddedAd_Video-Surface.layout"
+  width: 1920
+  height: 1080
+  copy_source: true
+}
+sources {
+  uid: 690015238
+  name: "Example-ListEmbeddedAd_Image-Video-Placeholder.layout"
+  width: 1920
+  height: 1080
+  copy_source: true
+}

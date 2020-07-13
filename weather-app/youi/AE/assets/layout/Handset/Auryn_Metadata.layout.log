@@ -1,0 +1,118 @@
+activecomp {
+  name: "Auryn_Metadata"
+  width: 410
+  height: 50
+  defaultcameradistance: 569.444458
+  layer {
+    name: "Text-TimeRemaining"
+    id: 1636
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 0.17199707
+        y: 15.875
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 68.6987
+        y: 26.4936409
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      fontSize: 31
+      fontColor {
+        alpha: 1
+        red: 1
+        green: 1
+        blue: 1
+      }
+      fontName: "Montserrat-Medium"
+      boundsWidth: 348
+      boundsHeight: 36
+      isLabel: true
+      multiline: true
+      ellipsis: true
+    }
+    classname: "CYISDFAtlasTextSceneNode"
+    properties {
+      key: "text-overflow"
+      value: "ellipsis"
+    }
+    properties {
+      key: "text-placeholder"
+      value: "true"
+    }
+  }
+  layer {
+    name: "Image-Dynamic-Live-Logo"
+    id: 1637
+    sourceid: 1282
+    transform {
+      anchorPoint {
+        x: 24.5
+        y: 18
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 24.5
+        y: 24
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "clip"
+    value: "true"
+  }
+  properties {
+    key: "layout"
+    value: "CYIRowLayout"
+  }
+  properties {
+    key: "gravity"
+    value: "left"
+  }
+  properties {
+    key: "spacing"
+    value: "20"
+  }
+  childtemplates: "Auryn_Image-Dynamic-Live-Logo"
+}
+sources {
+  uid: 1
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Medium"
+  copy_source: true
+  file_name: "yi_Montserrat-Medium.otf"
+  style_name: "Medium"
+}
+sources {
+  uid: 1282
+  name: "Auryn_Image-Dynamic-Live-Logo.layout"
+  width: 49
+  height: 36
+  copy_source: true
+}

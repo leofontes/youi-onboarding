@@ -1,0 +1,51 @@
+activecomp {
+  name: "Auryn_Nav-Icon-Toggled"
+  width: 60
+  height: 55
+  defaultcameradistance: 83.3333359
+  layer {
+    name: "ImageNode"
+    id: 690016200
+    sourceid: 690015904
+    transform {
+      anchorPoint {
+        x: 15
+        y: 15
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 30
+        y: 27
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  classname: "CYIImageView"
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "componentType"
+    value: "image"
+  }
+}
+sources {
+  uid: 690015904
+  srctype: AE_IMAGE_SRC
+  name: "Default-Nav-Icon.png"
+  width: 30
+  height: 30
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}

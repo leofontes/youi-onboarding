@@ -1,0 +1,48 @@
+activecomp {
+  name: "Example-ListEmbeddedAd_Image-Video-Placeholder"
+  width: 1920
+  height: 1080
+  defaultcameradistance: 2666.66675
+  layer {
+    name: "ImageNode"
+    id: 690015238
+    sourceid: 690015427
+    transform {
+      anchorPoint {
+        x: 480
+        y: 270
+      }
+      scale {
+        x: 2
+        y: 2
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  classname: "CYIImageView"
+  bgcolor {
+    alpha: 1
+  }
+  properties {
+    key: "componentType"
+    value: "image"
+  }
+}
+sources {
+  uid: 690015427
+  srctype: AE_IMAGE_SRC
+  name: "VAWAA-Ad-Image-2.png"
+  width: 960
+  height: 540
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}

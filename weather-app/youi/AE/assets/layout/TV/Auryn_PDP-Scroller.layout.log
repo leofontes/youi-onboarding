@@ -1,0 +1,251 @@
+activecomp {
+  name: "Auryn_PDP-Scroller"
+  width: 1920
+  height: 1080
+  defaultcameradistance: 2666.66675
+  layer {
+    name: "Deep Blue Solid 1"
+    id: 389
+    sourceid: 690012370
+    transform {
+      anchorPoint {
+        x: 960
+        y: 640
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 640
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "List-PDP-Container"
+    id: 390
+    sourceid: 690012230
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 50
+        y: 740
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 395
+  }
+  layer {
+    name: "White Solid 28"
+    id: 391
+    sourceid: 690016252
+    transform {
+      anchorPoint {
+        x: 880
+        y: 2
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 50
+        y: 764
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 395
+  }
+  layer {
+    name: "Container-Layout-PDP-Top"
+    id: 392
+    sourceid: 690016257
+    transform {
+      anchorPoint {
+        x: 880
+        y: 343.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 50
+        y: 343.5
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 395
+  }
+  layer {
+    name: "Btn-Back"
+    id: 393
+    sourceid: 690011939
+    transform {
+      anchorPoint {
+        x: 50
+        y: 50
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 46
+        y: -122
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 394
+  }
+  layer {
+    name: "ScaleWidthPropTopRightAnchor"
+    id: 394
+    sourceid: 1480
+    transform {
+      anchorPoint {
+        x: 100
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1920
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "ScaleWidthPropTopAnchor"
+    id: 395
+    sourceid: 1480
+    transform {
+      anchorPoint {
+        x: 50
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  classname: "CYIScrollingView"
+  bgcolor {
+    alpha: 1
+    red: 0.29019607843137257
+    green: 0.29019607843137257
+    blue: 0.29019607843137257
+  }
+  properties {
+    key: "componentSubtype"
+    value: "scrolling"
+  }
+  properties {
+    key: "horizontal-scroll"
+    value: "false"
+  }
+  properties {
+    key: "vertical-scroll"
+    value: "true"
+  }
+  childtemplates: "Auryn_List-PDP-Contianer"
+  childtemplates: "Auryn_Container-Layout-PDP-Top"
+  childtemplates: "Auryn_Btn-Back"
+}
+sources {
+  uid: 690012370
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.14311900734901428
+    green: 0.10722099989652634
+    blue: 0.46718698740005493
+  }
+  width: 1920
+  height: 1280
+}
+sources {
+  uid: 690012230
+  name: "Auryn_List-PDP-Contianer.layout"
+  width: 1920
+  height: 1080
+  copy_source: true
+}
+sources {
+  uid: 690016252
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.99054843187332153
+    green: 0.99054843187332153
+    blue: 0.99054843187332153
+  }
+  width: 1760
+  height: 4
+}
+sources {
+  uid: 690016257
+  name: "Auryn_Container-Layout-PDP-Top.layout"
+  width: 1760
+  height: 687
+  copy_source: true
+}
+sources {
+  uid: 690011939
+  name: "Auryn_Btn-Back.layout"
+  width: 100
+  height: 100
+  copy_source: true
+}
+sources {
+  uid: 1480
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+}

@@ -1,0 +1,207 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 1023
+  targetname: "Btn-Search.png"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: OPACITY
+  targetid: 1023
+  targetname: "Btn-Search.png"
+  keytimes {
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 1
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 1.01666
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.972105384
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 1.03332
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.896374762
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 1.04997993
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.784737825
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 1.0666399
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.649124622
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 1.09995985
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.353688329
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 1.11661983
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.21772489
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 1.1332798
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.105504386
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 1.14993978
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.0289566237
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 1.16666663
+    inttype: AE_INTERP_LINEAR
+  }
+  trackName: "Opacity"
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 1024
+  targetname: "Btn-Search-Focused.png"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: OPACITY
+  targetid: 1024
+  targetname: "Btn-Search-Focused.png"
+  keytimes {
+    inttype: AE_INTERP_LINEAR
+  }
+  keytimes {
+    timeOffset: 1
+    inttype: AE_INTERP_LINEAR
+  }
+  keytimes {
+    timeOffset: 1.01666
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.0278946236
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 1.03332
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.103625275
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 1.04997993
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.21526213
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 1.0666399
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.350875348
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 1.09995985
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.646311641
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 1.11661983
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.782275081
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 1.1332798
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.894495606
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 1.14993978
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.971043408
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 1.16666663
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  trackName: "Opacity"
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 1025
+  targetname: "InputProperties"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 1026
+  targetname: "Edit Search"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 1027
+  targetname: "Text"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 1028
+  targetname: "Icon-Search.png"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+markers {
+  starttime: 1
+  duration: 0.166666672
+  name: "FocusIn"
+  tracksSelection {
+    targetid: 1023
+    binding: OPACITY
+  }
+  tracksSelection {
+    targetid: 1024
+    binding: OPACITY
+  }
+  id: 21
+}

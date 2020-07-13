@@ -1,0 +1,80 @@
+activecomp {
+  name: "Auryn_Container-Btn-Backdrop-LargePDP"
+  width: 891
+  height: 687
+  defaultcameradistance: 1237.5
+  layer {
+    name: "Backdrop-Shadow-Large-PDP.png"
+    id: 690015282
+    sourceid: 690015304
+    transform {
+      anchorPoint {
+        x: 499.5
+        y: 348.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 445
+        y: 394.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Btn-Backdrop-LargePDP"
+    id: 690015283
+    sourceid: 690015263
+    transform {
+      anchorPoint {
+        x: 445.5
+        y: 294.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 445.5
+        y: 393.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  childtemplates: "Auryn_Btn-Backdrop-LargePDP"
+}
+sources {
+  uid: 690015304
+  srctype: AE_IMAGE_SRC
+  name: "Backdrop-Shadow-Large-PDP.png"
+  width: 999
+  height: 697
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 690015263
+  name: "Auryn_Btn-Backdrop-LargePDP.layout"
+  width: 891
+  height: 589
+  copy_source: true
+}

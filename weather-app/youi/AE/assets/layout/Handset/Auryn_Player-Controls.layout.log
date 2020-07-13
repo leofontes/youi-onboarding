@@ -1,0 +1,448 @@
+activecomp {
+  name: "Auryn_Player-Controls"
+  width: 1920
+  height: 1080
+  defaultcameradistance: 2666.66675
+  layer {
+    name: "Gradient-Player_2.png"
+    id: 1767
+    sourceid: 96
+    transform {
+      anchorPoint {
+        x: 0.5
+        y: 274
+      }
+      scale {
+        x: 1920
+        y: 1.08029199
+        z: 1
+      }
+      position {
+        x: 960
+        y: 1044
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Player-Controls-Layout"
+    id: 1768
+    sourceid: 690014663
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 50
+        y: -158
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 1777
+  }
+  layer {
+    name: "Btn-MiniGuide"
+    id: 1769
+    sourceid: 462
+    transform {
+      anchorPoint {
+        x: 200
+        y: 40
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: -190
+        y: 282
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 1776
+  }
+  layer {
+    name: "Set_Ctrl"
+    id: 1770
+    sourceid: 690017045
+    transform {
+      anchorPoint {
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Container-Btn-PlayPause"
+    id: 1771
+    sourceid: 690017026
+    transform {
+      anchorPoint {
+        x: 75
+        y: 75
+      }
+      scale {
+        x: 2
+        y: 2
+        z: 1
+      }
+      position {
+        x: 50
+        y: 50
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 1778
+  }
+  layer {
+    name: "Btn-Back"
+    id: 1772
+    sourceid: 305
+    transform {
+      anchorPoint {
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 68
+        y: -113
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 1775
+  }
+  layer {
+    name: "Title"
+    id: 1773
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 699.096313
+        y: 33.1792603
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 50
+        y: -35.918457
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 44
+      fontColor {
+        alpha: 1
+        red: 1
+        green: 1
+        blue: 1
+      }
+      fontName: "Montserrat-Bold"
+      boundsWidth: 1398
+      boundsHeight: 153
+      isLabel: true
+      multiline: true
+      ellipsis: true
+      isAllCaps: true
+    }
+    parentid: 1779
+    properties {
+      key: "text-overflow"
+      value: "ellipsis"
+    }
+    properties {
+      key: "text-placeholder"
+      value: "true"
+    }
+  }
+  layer {
+    name: "Live-MiniGuide"
+    id: 1774
+    sourceid: 690014592
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 50
+        y: 50
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 1780
+  }
+  layer {
+    name: "ScalePropTopLeftAnchor"
+    id: 1775
+    sourceid: 1480
+    transform {
+      anchorPoint {
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "ScaleWidthPropBottomRightAnchor"
+    id: 1776
+    sourceid: 1480
+    transform {
+      anchorPoint {
+        x: 100
+        y: 100
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1920
+        y: 1080
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "ScaleWidthPropBottomAnchor"
+    id: 1777
+    sourceid: 1480
+    transform {
+      anchorPoint {
+        x: 50
+        y: 100
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 1080
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "ScaleWidthPropCenterAnchor"
+    id: 1778
+    sourceid: 1480
+    transform {
+      anchorPoint {
+        x: 50
+        y: 50
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "ScaleWidthPropTopAnchor"
+    id: 1779
+    sourceid: 1480
+    transform {
+      anchorPoint {
+        x: 50
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "ScaleHeightPropCenterAnchor"
+    id: 1780
+    sourceid: 1480
+    transform {
+      anchorPoint {
+        x: 50
+        y: 50
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  childtemplates: "Auryn_Player-Controls-Layout"
+  childtemplates: "Auryn_Btn-MiniGuide"
+  childtemplates: "Auryn_Container-Btn-PlayPause"
+  childtemplates: "Auryn_Btn-Back"
+  childtemplates: "Auryn_Live-MiniGuide"
+}
+sources {
+  uid: 96
+  srctype: AE_IMAGE_SRC
+  name: "Gradient-Player_2.png"
+  width: 1
+  height: 548
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 690014663
+  name: "Auryn_Player-Controls-Layout.layout"
+  width: 1920
+  height: 1080
+  copy_source: true
+}
+sources {
+  uid: 462
+  name: "Auryn_Btn-MiniGuide.layout"
+  width: 400
+  height: 80
+  copy_source: true
+}
+sources {
+  uid: 690017045
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+}
+sources {
+  uid: 690017026
+  name: "Auryn_Container-Btn-PlayPause.layout"
+  width: 150
+  height: 150
+  copy_source: true
+}
+sources {
+  uid: 305
+  name: "Auryn_Btn-Back.layout"
+  width: 100
+  height: 100
+  copy_source: true
+}
+sources {
+  uid: 7
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Bold"
+  copy_source: true
+  file_name: "yi_Montserrat-Bold.otf"
+  style_name: "Bold"
+}
+sources {
+  uid: 690014592
+  name: "Auryn_Live-MiniGuide.layout"
+  width: 1920
+  height: 1080
+  copy_source: true
+}
+sources {
+  uid: 1480
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+}

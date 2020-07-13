@@ -1,0 +1,685 @@
+activecomp {
+  name: "Example-ListEmbeddedAd_Ad-VAWAA"
+  width: 1920
+  height: 1080
+  defaultcameradistance: 2666.66675
+  layer {
+    name: "Background"
+    id: 690014800
+    sourceid: 690011404
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Video-Surface-Container"
+    id: 690014801
+    sourceid: 690015224
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 50
+        y: 50
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 690014817
+  }
+  layer {
+    name: "Black Solid 11"
+    id: 690014802
+    sourceid: 690012069
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: -540
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Black Solid 11"
+    id: 690014803
+    sourceid: 690012069
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 1620
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "White Solid 25"
+    id: 690014804
+    sourceid: 690015215
+    transform {
+      anchorPoint {
+        x: 960
+        y: 270
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: -241.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 690014807
+  }
+  layer {
+    name: "White Solid 24"
+    id: 690014805
+    sourceid: 690014912
+    transform {
+      anchorPoint {
+        x: 241.5
+        y: 270
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: -241.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 690014807
+  }
+  layer {
+    name: "Coupon-Container"
+    id: 690014806
+    sourceid: 690015321
+    transform {
+      anchorPoint {
+        x: 241.5
+        y: 270
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 241.5
+        y: 270
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 690014805
+  }
+  layer {
+    name: "Coupon-Null"
+    id: 690014807
+    sourceid: 690014918
+    transform {
+      anchorPoint {
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1201.5
+        y: 1350
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "VAWAA-Ad-Image-3-Container"
+    id: 690014808
+    sourceid: 690015379
+    transform {
+      anchorPoint {
+        x: 240
+        y: 270
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 958.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 690014807
+  }
+  layer {
+    name: "VAWAA-Ad-Image-1.png"
+    id: 690014809
+    sourceid: 690014913
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+      }
+      scale {
+        x: 1.5
+        y: 1.5
+        z: 1
+      }
+      position {
+        x: -910
+        y: 50
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 690014817
+  }
+  layer {
+    name: "Subtitle"
+    id: 690014810
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 336.5
+        y: 52
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 435.012512
+        y: 203
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      fontSize: 26
+      fontColor {
+        alpha: 1
+        red: 1
+        green: 1
+        blue: 1
+      }
+      fontName: "BrandonGrotesque-Bold"
+      boundsWidth: 673
+      boundsHeight: 104
+      isLabel: true
+      text: "by vawaa"
+      multiline: true
+      leading: 50
+      isAllCaps: true
+    }
+    parentid: 690014816
+    classname: "CYISDFAtlasTextSceneNode"
+    properties {
+      key: "leading"
+      value: "50"
+    }
+  }
+  layer {
+    name: "Title"
+    id: 690014811
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 431
+        y: 46
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 529.453186
+        y: 99
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      fontSize: 92
+      fontColor {
+        alpha: 1
+        red: 1
+        green: 1
+        blue: 1
+      }
+      fontName: "Timberline-Regular"
+      boundsWidth: 862
+      boundsHeight: 92
+      isLabel: true
+      text: "Cooking"
+      multiline: true
+    }
+    parentid: 690014816
+    classname: "CYISDFAtlasTextSceneNode"
+  }
+  layer {
+    name: "Tagline"
+    id: 690014812
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 368
+        y: 126
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 456.453186
+        y: 733.5
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      fontSize: 68
+      fontColor {
+        alpha: 1
+        red: 1
+        green: 1
+        blue: 1
+      }
+      fontName: "BrandonGrotesque-Medium"
+      boundsWidth: 736
+      boundsHeight: 252
+      isLabel: true
+      text: "The secret ingredient\rto local culture."
+      multiline: true
+    }
+  }
+  layer {
+    name: "Logo-VAWAA.png"
+    id: 690014813
+    sourceid: 690014733
+    transform {
+      anchorPoint {
+        x: 108.5
+        y: 26
+      }
+      scale {
+        x: 1.78
+        y: 1.78
+        z: 1
+      }
+      position {
+        x: 163.5
+        y: -4
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 690014819
+  }
+  layer {
+    name: "Null 18"
+    id: 690014814
+    sourceid: 690015216
+    transform {
+      anchorPoint {
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 50
+        y: 50
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 690014817
+  }
+  layer {
+    name: "Btn-Close"
+    id: 690014815
+    sourceid: 690011385
+    transform {
+      anchorPoint {
+        x: 52.5
+        y: 18.5152664
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: -32.5
+        y: 98.5152664
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 690014818
+  }
+  layer {
+    name: "ScaleWidthPropBottomLeftAnchor"
+    id: 690014816
+    sourceid: 286
+    transform {
+      anchorPoint {
+        y: 100
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        y: 1080
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "ScaleWidthPropCenterAnchor"
+    id: 690014817
+    sourceid: 286
+    transform {
+      anchorPoint {
+        x: 50
+        y: 50
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "ScaleWidthPropTopRightAnchor"
+    id: 690014818
+    sourceid: 286
+    transform {
+      anchorPoint {
+        x: 100
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1920
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "ScaleWidthPropTopLeftAnchor"
+    id: 690014819
+    sourceid: 286
+    transform {
+      anchorPoint {
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+  }
+  childtemplates: "Example-ListEmbeddedAd_Video-Surface-Container"
+  childtemplates: "Example-ListEmbeddedAd_Coupon-Container"
+  childtemplates: "Example-ListEmbeddedAd_VAWAA-Ad-Image-3-Container"
+  childtemplates: "Example-ListEmbeddedAd_Btn-Cap"
+}
+sources {
+  uid: 690011404
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+  }
+  width: 1920
+  height: 1080
+}
+sources {
+  uid: 690015224
+  name: "Example-ListEmbeddedAd_Video-Surface-Container.layout"
+  width: 1920
+  height: 1080
+  copy_source: true
+}
+sources {
+  uid: 690012069
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+  }
+  width: 1920
+  height: 1080
+}
+sources {
+  uid: 690015215
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 1
+    green: 1
+    blue: 1
+  }
+  width: 1920
+  height: 540
+}
+sources {
+  uid: 690014912
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 1
+    green: 1
+    blue: 1
+  }
+  width: 483
+  height: 540
+}
+sources {
+  uid: 690015321
+  name: "Example-ListEmbeddedAd_Coupon-Container.layout"
+  width: 483
+  height: 540
+  copy_source: true
+}
+sources {
+  uid: 690014918
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+}
+sources {
+  uid: 690015379
+  name: "Example-ListEmbeddedAd_VAWAA-Ad-Image-3-Container.layout"
+  width: 480
+  height: 540
+  copy_source: true
+}
+sources {
+  uid: 690014913
+  srctype: AE_IMAGE_SRC
+  name: "VAWAA-Ad-Image-1.png"
+  width: 960
+  height: 1080
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 10
+  srctype: AE_FONT_SRC
+  name: "BrandonGrotesque-Bold"
+  copy_source: true
+  file_name: "yi_Brandon Grotesque-Bold.otf"
+  style_name: "Bold"
+}
+sources {
+  uid: 11
+  srctype: AE_FONT_SRC
+  name: "Timberline-Regular"
+  copy_source: true
+  file_name: "yi_Timberline-Regular.otf"
+  style_name: "Regular"
+}
+sources {
+  uid: 12
+  srctype: AE_FONT_SRC
+  name: "BrandonGrotesque-Medium"
+  copy_source: true
+  file_name: "yi_Brandon Grotesque-Medium.otf"
+  style_name: "Medium"
+}
+sources {
+  uid: 690014733
+  srctype: AE_IMAGE_SRC
+  name: "Logo-VAWAA.png"
+  width: 217
+  height: 52
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 690015216
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+}
+sources {
+  uid: 690011385
+  name: "Example-ListEmbeddedAd_Btn-Cap.layout"
+  width: 105
+  height: 49
+  copy_source: true
+}
+sources {
+  uid: 286
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+}

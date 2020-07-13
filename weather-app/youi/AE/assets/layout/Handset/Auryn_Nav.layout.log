@@ -1,0 +1,267 @@
+activecomp {
+  name: "Auryn_Nav"
+  width: 1080
+  height: 1920
+  defaultcameradistance: 1500
+  layer {
+    name: "Backdrop-Gradient-Large.png"
+    id: 1673
+    sourceid: 690015178
+    transform {
+      anchorPoint {
+        x: 263.5
+        y: 0.5
+      }
+      scale {
+        x: 2.04933596
+        y: 187
+        z: 1
+      }
+      position {
+        x: 540
+        y: 2026.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    properties {
+      key: "item-gravity"
+      value: "bottom"
+    }
+  }
+  layer {
+    name: "Black Solid 15"
+    id: 1674
+    sourceid: 690017101
+    transform {
+      anchorPoint {
+        x: 540
+        y: 93.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 540
+        y: 2026.5
+      }
+      orientation {
+      }
+      opacity: 0.1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    properties {
+      key: "item-gravity"
+      value: "bottom"
+    }
+  }
+  layer {
+    name: "Btn-Nav-Profile"
+    id: 1675
+    sourceid: 672
+    transform {
+      anchorPoint {
+        x: 30
+        y: 30
+      }
+      scale {
+        x: 1.5
+        y: 1.5
+        z: 1
+      }
+      position {
+        x: 979.968201
+        y: -0.214241982
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    properties {
+      key: "item-gravity"
+      value: "top-right"
+    }
+    properties {
+      key: "margin-right"
+      value: "56"
+    }
+    properties {
+      key: "margin-top"
+      value: "20"
+    }
+  }
+  layer {
+    name: "Btn-Nav-Search"
+    id: 1676
+    sourceid: 724
+    transform {
+      anchorPoint {
+        x: 30
+        y: 30
+      }
+      scale {
+        x: 1.5
+        y: 1.5
+        z: 1
+      }
+      position {
+        x: 853.69519
+        y: -2.72219324
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    properties {
+      key: "margin-right"
+      value: "168"
+    }
+    properties {
+      key: "item-gravity"
+      value: "top-right"
+    }
+    properties {
+      key: "margin-top"
+      value: "20"
+    }
+  }
+  layer {
+    name: "Nav-List"
+    id: 1677
+    sourceid: 690014353
+    transform {
+      anchorPoint {
+        x: 501
+        y: 93.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 540
+        y: 1903.5
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    properties {
+      key: "item-gravity"
+      value: "bottom"
+    }
+  }
+  layer {
+    name: "Nav-Logo"
+    id: 1678
+    sourceid: 1701
+    transform {
+      anchorPoint {
+      }
+      scale {
+        x: 0.6
+        y: 0.6
+        z: 1
+      }
+      position {
+        x: 78.785759
+        y: -33.2142296
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    properties {
+      key: "margin-top"
+      value: "20"
+    }
+    properties {
+      key: "margin-left"
+      value: "82"
+    }
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "clip"
+    value: "true"
+  }
+  properties {
+    key: "scale-mode"
+    value: "fit"
+  }
+  properties {
+    key: "layout"
+    value: "CYIStackLayout"
+  }
+  properties {
+    key: "padding-top"
+    value: "76"
+  }
+  childtemplates: "Auryn_Btn-Nav-Profile"
+  childtemplates: "Auryn_Btn-Nav-Search"
+  childtemplates: "Auryn_Nav-List"
+  childtemplates: "Auryn_Nav-Logo"
+}
+sources {
+  uid: 690015178
+  srctype: AE_IMAGE_SRC
+  name: "Backdrop-Gradient-Large.png"
+  width: 527
+  height: 1
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 690017101
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+  }
+  width: 1080
+  height: 187
+}
+sources {
+  uid: 672
+  name: "Auryn_Btn-Nav-Profile.layout"
+  width: 60
+  height: 60
+  copy_source: true
+}
+sources {
+  uid: 724
+  name: "Auryn_Btn-Nav-Search.layout"
+  width: 60
+  height: 60
+  copy_source: true
+}
+sources {
+  uid: 690014353
+  name: "Auryn_Nav-List.layout"
+  width: 1002
+  height: 187
+  copy_source: true
+}
+sources {
+  uid: 1701
+  name: "Auryn_Nav-Logo.layout"
+  width: 178
+  height: 160
+  copy_source: true
+}

@@ -1,0 +1,130 @@
+activecomp {
+  name: "Auryn_Details"
+  width: 366
+  height: 172
+  defaultcameradistance: 508.333344
+  layer {
+    name: "Text-Detail-1"
+    id: 1172
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 0.408004761
+        y: 15.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 8.352005
+        y: 51.9840775
+      }
+      orientation {
+      }
+      opacity: 0.5
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      fontSize: 31
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-Medium"
+      boundsWidth: 357
+      boundsHeight: 67
+      isLabel: true
+      multiline: true
+      ellipsis: true
+    }
+    properties {
+      key: "text-placeholder"
+      value: "true"
+    }
+    properties {
+      key: "text-overflow"
+      value: "ellipsis"
+    }
+  }
+  layer {
+    name: "Text-Title"
+    id: 1173
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 0.67199707
+        y: 22.25
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 10.5
+        y: 26.1751556
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      fontSize: 31
+      fontColor {
+        alpha: 1
+        red: 1
+        green: 1
+        blue: 1
+      }
+      fontName: "Montserrat-Bold"
+      boundsWidth: 379
+      boundsHeight: 102
+      isLabel: true
+      multiline: true
+      ellipsis: true
+      isAllCaps: true
+    }
+    classname: "CYISDFAtlasTextSceneNode"
+    properties {
+      key: "text-placeholder"
+      value: "true"
+    }
+    properties {
+      key: "text-overflow"
+      value: "ellipsis"
+    }
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "layout"
+    value: "CYIColumnLayout"
+  }
+}
+sources {
+  uid: 1
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Medium"
+  copy_source: true
+  file_name: "yi_Montserrat-Medium.otf"
+  style_name: "Medium"
+}
+sources {
+  uid: 2
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Bold"
+  copy_source: true
+  file_name: "yi_Montserrat-Bold.otf"
+  style_name: "Bold"
+}

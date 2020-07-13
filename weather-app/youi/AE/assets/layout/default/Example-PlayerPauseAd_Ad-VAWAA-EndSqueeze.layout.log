@@ -1,0 +1,494 @@
+activecomp {
+  name: "Example-PlayerPauseAd_Ad-VAWAA-EndSqueeze"
+  width: 1920
+  height: 1080
+  defaultcameradistance: 2666.66675
+  layer {
+    name: "Background"
+    id: 690014660
+    sourceid: 690015180
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Image-Background.png"
+    id: 690014661
+    sourceid: 69
+    transform {
+      anchorPoint {
+        x: 1024
+        y: 680
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 70
+        y: 190
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 690014673
+  }
+  layer {
+    name: "White Solid 7"
+    id: 690014662
+    sourceid: 277
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Image-Foreground-3.png"
+    id: 690014663
+    sourceid: 71
+    transform {
+      anchorPoint {
+        x: 1046.5
+        y: 308.5
+      }
+      scale {
+        x: 1.15
+        y: 1.15
+        z: 1
+      }
+      position {
+        x: 300
+        y: 385.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 690014673
+  }
+  layer {
+    name: "White Solid 7"
+    id: 690014664
+    sourceid: 277
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Image-Foreground-2.png"
+    id: 690014665
+    sourceid: 70
+    transform {
+      anchorPoint {
+        x: 575.5
+        y: 260
+      }
+      scale {
+        x: 1.99
+        y: 1.99
+        z: 1
+      }
+      position {
+        x: 728
+        y: 460.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 690014673
+  }
+  layer {
+    name: "Logo-VAWAA.png"
+    id: 690014666
+    sourceid: 690014733
+    transform {
+      anchorPoint {
+        x: 108.5
+        y: 26
+      }
+      scale {
+        x: 1.06194687
+        y: 1.06194687
+        z: 1
+      }
+      position {
+        x: 485.677
+        y: 414.492645
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 690014665
+  }
+  layer {
+    name: "Picture"
+    id: 690014667
+    sourceid: 74
+    transform {
+      anchorPoint {
+        x: 219.5
+        y: 238.5
+      }
+      scale {
+        x: 0.884955764
+        y: 0.884955764
+        z: 1
+      }
+      position {
+        x: 485.677
+        y: 73.3421936
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 690014665
+  }
+  layer {
+    name: "Text"
+    id: 690014668
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 231
+        y: 106
+      }
+      scale {
+        x: 1.06194687
+        y: 1.06194687
+        z: 1
+      }
+      position {
+        x: 487.004425
+        y: -212.941
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 66
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "BrandonGrotesque-Bold"
+      boundsWidth: 462
+      boundsHeight: 212
+      isLabel: true
+      text: "Explore\rwith Vawaa"
+      multiline: true
+      leading: 83
+    }
+    parentid: 690014665
+    classname: "CYISDFAtlasTextSceneNode"
+    properties {
+      key: "leading"
+      value: "83"
+    }
+  }
+  layer {
+    name: "Btn-Close"
+    id: 690014669
+    sourceid: 690011385
+    transform {
+      anchorPoint {
+        x: 52.5
+        y: 18.5152664
+      }
+      scale {
+        x: 0.884955764
+        y: 0.884955764
+        z: 1
+      }
+      position {
+        x: 679.924805
+        y: -349.210663
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 690014665
+  }
+  layer {
+    name: "Black Solid 12"
+    id: 690014670
+    sourceid: 690014797
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Black Solid 11"
+    id: 690014671
+    sourceid: 690012069
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 50
+        y: -1030
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 690014673
+  }
+  layer {
+    name: "Black Solid 11"
+    id: 690014672
+    sourceid: 690012069
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 50
+        y: 1130
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 690014673
+  }
+  layer {
+    name: "ScaleWidthPropCenterAnchor"
+    id: 690014673
+    sourceid: 286
+    transform {
+      anchorPoint {
+        x: 50
+        y: 50
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+  }
+  childtemplates: "Example-PlayerPauseAd_Picture"
+  childtemplates: "Example-PlayerPauseAd_Btn-Cap"
+}
+sources {
+  uid: 690015180
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+  }
+  width: 1920
+  height: 1080
+}
+sources {
+  uid: 69
+  srctype: AE_IMAGE_SRC
+  name: "Image-Background.png"
+  width: 2048
+  height: 1360
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 277
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 1
+    green: 1
+    blue: 1
+  }
+  width: 1920
+  height: 1080
+}
+sources {
+  uid: 71
+  srctype: AE_IMAGE_SRC
+  name: "Image-Foreground-3.png"
+  width: 2093
+  height: 617
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 70
+  srctype: AE_IMAGE_SRC
+  name: "Image-Foreground-2.png"
+  width: 1151
+  height: 520
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 690014733
+  srctype: AE_IMAGE_SRC
+  name: "Logo-VAWAA.png"
+  width: 217
+  height: 52
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 74
+  name: "Example-PlayerPauseAd_Picture.layout"
+  width: 439
+  height: 477
+  copy_source: true
+}
+sources {
+  uid: 8
+  srctype: AE_FONT_SRC
+  name: "BrandonGrotesque-Bold"
+  copy_source: true
+  file_name: "yi_Brandon Grotesque-Bold.otf"
+  style_name: "Bold"
+}
+sources {
+  uid: 690011385
+  name: "Example-PlayerPauseAd_Btn-Cap.layout"
+  width: 105
+  height: 49
+  copy_source: true
+}
+sources {
+  uid: 690014797
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+  }
+  width: 1920
+  height: 1080
+}
+sources {
+  uid: 690012069
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+  }
+  width: 1920
+  height: 1080
+}
+sources {
+  uid: 286
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+}

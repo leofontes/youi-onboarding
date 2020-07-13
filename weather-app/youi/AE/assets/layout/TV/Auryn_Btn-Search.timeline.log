@@ -1,0 +1,120 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 259598
+  targetname: "Red Solid 20"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: OPACITY
+  targetid: 259598
+  targetname: "Red Solid 20"
+  keytimes {
+    inttype: AE_INTERP_LINEAR
+  }
+  keytimes {
+    timeOffset: 1
+    inttype: AE_INTERP_LINEAR
+  }
+  keytimes {
+    timeOffset: 1.16666663
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  trackName: "Opacity"
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 259599
+  targetname: "Deep Royal Blue Solid 12"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: OPACITY
+  targetid: 259599
+  targetname: "Deep Royal Blue Solid 12"
+  keytimes {
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 2
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 2.01666665
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.8
+  }
+  trackName: "Opacity"
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 259600
+  targetname: "Dark Royal Blue Solid 4"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: OPACITY
+  targetid: 259600
+  targetname: "Dark Royal Blue Solid 4"
+  keytimes {
+    inttype: AE_INTERP_LINEAR
+  }
+  keytimes {
+    timeOffset: 2
+    inttype: AE_INTERP_LINEAR
+  }
+  keytimes {
+    timeOffset: 2.01666665
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  trackName: "Opacity"
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 259601
+  targetname: "SEARCH"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+markers {
+  starttime: 1
+  duration: 0.166666672
+  name: "FocusIn"
+  tracksSelection {
+    targetid: 259598
+    binding: OPACITY
+  }
+  id: 21
+}
+markers {
+  starttime: 2
+  duration: 0.0166666675
+  name: "Press"
+  tracksSelection {
+    targetid: 259599
+    binding: OPACITY
+  }
+  tracksSelection {
+    targetid: 259600
+    binding: OPACITY
+  }
+  id: 18
+}

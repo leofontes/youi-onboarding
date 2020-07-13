@@ -1,0 +1,20 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690015536
+  targetname: "Details"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690015537
+  targetname: "Text-Title"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}

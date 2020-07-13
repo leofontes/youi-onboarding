@@ -1,0 +1,100 @@
+activecomp {
+  name: "Auryn_UpNext-Countdown"
+  width: 272
+  height: 64
+  defaultcameradistance: 377.777771
+  layer {
+    name: "Timer"
+    id: 767
+    sourceid: -1
+    transform {
+      anchorPoint {
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 141
+        y: 63.6616211
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      fontSize: 28
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-Bold"
+      isPointText: true
+      isLabel: true
+      text: "10s"
+    }
+  }
+  layer {
+    name: "UpNext-Text"
+    id: 768
+    sourceid: -1
+    transform {
+      anchorPoint {
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        y: 63.6616211
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      fontSize: 28
+      fontColor {
+        alpha: 1
+        red: 0.84706008434295654
+        green: 0.84706008434295654
+        blue: 0.84706008434295654
+      }
+      fontName: "Montserrat-Bold"
+      isPointText: true
+      isLabel: true
+      text: "Up Next"
+      isAllCaps: true
+    }
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.25098039215686274
+    green: 0.23921568627450981
+    blue: 0.23921568627450981
+  }
+  properties {
+    key: "gravity"
+    value: "bottom-left"
+  }
+  properties {
+    key: "layout"
+    value: "CYIRowLayout"
+  }
+}
+sources {
+  uid: 1
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Bold"
+  copy_source: true
+  file_name: "yi_Montserrat-Bold.otf"
+  style_name: "Bold"
+}

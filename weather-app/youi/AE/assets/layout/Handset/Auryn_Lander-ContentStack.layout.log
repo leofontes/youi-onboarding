@@ -1,0 +1,181 @@
+activecomp {
+  name: "Auryn_Lander-ContentStack"
+  width: 1080
+  height: 1738
+  defaultcameradistance: 1500
+  layer {
+    name: "Live-List-Container"
+    id: 1340
+    sourceid: 1453
+    transform {
+      anchorPoint {
+        x: 540
+        y: 753
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 3780
+        y: 869
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    properties {
+      key: "placeholder"
+      value: "true"
+    }
+  }
+  layer {
+    name: "Movies 2"
+    id: 1341
+    sourceid: 1146
+    transform {
+      anchorPoint {
+        x: 540
+        y: 753
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 2700
+        y: 869
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    properties {
+      key: "placeholder"
+      value: "true"
+    }
+  }
+  layer {
+    name: "Movies"
+    id: 1342
+    sourceid: 1122
+    transform {
+      anchorPoint {
+        x: 540
+        y: 753
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1620
+        y: 869
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    properties {
+      key: "placeholder"
+      value: "true"
+    }
+  }
+  layer {
+    name: "Container-Discover"
+    id: 1343
+    sourceid: 1098
+    transform {
+      anchorPoint {
+        x: 540
+        y: 753
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 540
+        y: 869
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    properties {
+      key: "placeholder"
+      value: "true"
+    }
+  }
+  classname: "CYIListView"
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "componentSubtype"
+    value: "streaming"
+  }
+  properties {
+    key: "componentType"
+    value: "list"
+  }
+  properties {
+    key: "layout"
+    value: "CYIRowLayout"
+  }
+  properties {
+    key: "clip"
+    value: "true"
+  }
+  properties {
+    key: "insert-after-layer-id"
+    value: "-1"
+  }
+  childtemplates: "Auryn_Live-List-Container"
+  childtemplates: "Auryn_Container-Shows"
+  childtemplates: "Auryn_Container-Movies"
+  childtemplates: "Auryn_Container-Discover"
+}
+sources {
+  uid: 1453
+  name: "Auryn_Live-List-Container.layout"
+  width: 1080
+  height: 1506
+  copy_source: true
+}
+sources {
+  uid: 1146
+  name: "Auryn_Container-Shows.layout"
+  width: 1080
+  height: 1506
+  copy_source: true
+}
+sources {
+  uid: 1122
+  name: "Auryn_Container-Movies.layout"
+  width: 1080
+  height: 1506
+  copy_source: true
+}
+sources {
+  uid: 1098
+  name: "Auryn_Container-Discover.layout"
+  width: 1080
+  height: 1506
+  copy_source: true
+}

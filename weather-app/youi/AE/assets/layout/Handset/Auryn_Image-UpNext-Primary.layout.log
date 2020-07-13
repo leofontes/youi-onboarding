@@ -1,0 +1,53 @@
+activecomp {
+  name: "Auryn_Image-UpNext-Primary"
+  width: 620
+  height: 325
+  defaultcameradistance: 861.111084
+  layer {
+    name: "ImageNode"
+    id: 1306
+    sourceid: 2486
+    transform {
+      anchorPoint {
+        x: 310
+        y: 162.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 310
+        y: 162.5
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  classname: "CYIImageView"
+  bgcolor {
+    alpha: 1
+    red: 0.25098039215686274
+    green: 0.23921568627450981
+    blue: 0.23921568627450981
+  }
+  properties {
+    key: "componentType"
+    value: "image"
+  }
+}
+sources {
+  uid: 2486
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.2232230007648468
+    green: 0.2232230007648468
+    blue: 0.2232230007648468
+  }
+  width: 620
+  height: 325
+}

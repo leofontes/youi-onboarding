@@ -1,0 +1,10 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690015250
+  targetname: "Btn-Backdrop-Ad-VAWAA"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}

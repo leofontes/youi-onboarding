@@ -1,0 +1,20 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690015379
+  targetname: "VAWAA-Ad-Image-3.png"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690015380
+  targetname: "ScaleWidthPropCenterAnchor"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}

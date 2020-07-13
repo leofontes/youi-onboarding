@@ -1,0 +1,20 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690012750
+  targetname: "Live-Icon"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690012751
+  targetname: "LIVE"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}

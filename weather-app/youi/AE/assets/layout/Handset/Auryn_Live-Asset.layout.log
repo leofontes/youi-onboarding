@@ -1,0 +1,225 @@
+activecomp {
+  name: "Auryn_Live-Asset"
+  width: 991
+  height: 344
+  defaultcameradistance: 1376.38892
+  layer {
+    name: "Dark Gray Solid 5"
+    id: 1406
+    sourceid: 690014150
+    transform {
+      anchorPoint {
+        x: 468
+        y: 175.474747
+      }
+      scale {
+        x: 2.11752129
+        y: 1
+        z: 1
+      }
+      position {
+        x: 991
+        y: 175.474747
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Image-Dynamic-Live-Asset"
+    id: 1407
+    sourceid: 1270
+    transform {
+      anchorPoint {
+        y: 172
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        y: 172
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Progress-Bar"
+    id: 1408
+    sourceid: 1847
+    transform {
+      anchorPoint {
+        y: 8
+      }
+      scale {
+        x: 1
+        y: 0.99775213
+        z: 1
+      }
+      position {
+        y: 344
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Metadata"
+    id: 1409
+    sourceid: 1636
+    transform {
+      anchorPoint {
+        x: 205
+        y: 25
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 768
+        y: 293
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Details"
+    id: 1410
+    sourceid: 1172
+    transform {
+      anchorPoint {
+        x: 183
+        y: 86
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 746
+        y: 121.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "PlayIcon.png"
+    id: 1411
+    sourceid: 690015184
+    transform {
+      anchorPoint {
+        x: 38
+        y: 38
+      }
+      scale {
+        x: 1.5
+        y: 1.5
+        z: 1
+      }
+      position {
+        x: 262.5
+        y: 172
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  classname: "CYIPushButtonView"
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "clip"
+    value: "true"
+  }
+  properties {
+    key: "componentSubtype"
+    value: "push"
+  }
+  properties {
+    key: "componentType"
+    value: "button"
+  }
+  childtemplates: "Auryn_Image-Dynamic-Live-Asset"
+  childtemplates: "Auryn_Progress-Bar"
+  childtemplates: "Auryn_Metadata"
+  childtemplates: "Auryn_Details"
+}
+sources {
+  uid: 690014150
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.10196078568696976
+    green: 0.10196078568696976
+    blue: 0.10196078568696976
+  }
+  width: 468
+  height: 344
+}
+sources {
+  uid: 1270
+  name: "Auryn_Image-Dynamic-Live-Asset.layout"
+  width: 525
+  height: 344
+  copy_source: true
+}
+sources {
+  uid: 1847
+  name: "Auryn_Progress-Bar.layout"
+  width: 525
+  height: 8
+  copy_source: true
+}
+sources {
+  uid: 1636
+  name: "Auryn_Metadata.layout"
+  width: 410
+  height: 50
+  copy_source: true
+}
+sources {
+  uid: 1172
+  name: "Auryn_Details.layout"
+  width: 366
+  height: 172
+  copy_source: true
+}
+sources {
+  uid: 690015184
+  srctype: AE_IMAGE_SRC
+  name: "PlayIcon.png"
+  width: 76
+  height: 76
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}

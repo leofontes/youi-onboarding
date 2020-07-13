@@ -1,0 +1,49 @@
+activecomp {
+  name: "Example-ListEmbeddedAd_Container-Btn-Ad-Small-VAWAA"
+  width: 536
+  height: 468
+  defaultcameradistance: 744.444458
+  layer {
+    name: "Btn-Backdrop-Ad-VAWAA"
+    id: 690015457
+    sourceid: 690015437
+    transform {
+      anchorPoint {
+        x: 268
+        y: 234
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 268
+        y: 234
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "clip"
+    value: "false"
+  }
+  childtemplates: "Example-ListEmbeddedAd_Btn-Backdrop-Ad-VAWAA"
+}
+sources {
+  uid: 690015437
+  name: "Example-ListEmbeddedAd_Btn-Backdrop-Ad-VAWAA.layout"
+  width: 536
+  height: 468
+  copy_source: true
+}

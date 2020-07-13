@@ -1,0 +1,49 @@
+activecomp {
+  name: "Auryn_Container-Live"
+  width: 1080
+  height: 1350
+  defaultcameradistance: 1500
+  layer {
+    name: "Live-List-Container"
+    id: 1110
+    sourceid: 1453
+    transform {
+      anchorPoint {
+        x: 540
+        y: 753
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 540
+        y: 675
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "layout"
+    value: "CYIColumnLayout"
+  }
+  childtemplates: "Auryn_Live-List-Container"
+}
+sources {
+  uid: 1453
+  name: "Auryn_Live-List-Container.layout"
+  width: 1080
+  height: 1506
+  copy_source: true
+}

@@ -1,0 +1,58 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690014480
+  targetname: "Ad-VAWAA"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 30
+    inttype: AE_INTERP_HOLD
+  }
+}
+tracks {
+  binding: OPACITY
+  targetid: 690014480
+  targetname: "Ad-VAWAA"
+  keytimes {
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 1
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 7
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  trackName: "Opacity"
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690014481
+  targetname: "ScaleWidthPropBottomAnchor"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+markers {
+  starttime: 1
+  duration: 6
+  name: "Animation"
+  tracksSelection {
+    targetid: 690014480
+    binding: OPACITY
+  }
+  properties {
+    key: "recursive"
+    value: "true"
+  }
+}

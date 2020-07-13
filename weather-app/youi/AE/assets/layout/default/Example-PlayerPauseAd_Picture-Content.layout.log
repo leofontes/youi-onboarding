@@ -1,0 +1,354 @@
+activecomp {
+  name: "Example-PlayerPauseAd_Picture-Content"
+  width: 439
+  height: 77
+  defaultcameradistance: 609.722229
+  layer {
+    name: "Btn-Book-Background.png"
+    id: 209
+    sourceid: 690015194
+    transform {
+      anchorPoint {
+        x: 50.5
+        y: 17.5
+      }
+      scale {
+        x: 0.5
+        y: 0.5
+        z: 1
+      }
+      position {
+        x: 373.5
+        y: 37.5
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Btn-Text"
+    id: 210
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 37.5
+        y: 8.25
+      }
+      scale {
+        x: 0.5
+        y: 0.5
+        z: 1
+      }
+      position {
+        x: 383.902466
+        y: 41.232254
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      fontSize: 13
+      fontColor {
+        alpha: 1
+        red: 1
+        green: 1
+        blue: 1
+      }
+      fontName: "BrandonGrotesque-Bold"
+      boundsWidth: 75
+      boundsHeight: 16
+      isLabel: true
+      text: "Book Now"
+      multiline: true
+    }
+    classname: "CYISDFAtlasTextSceneNode"
+  }
+  layer {
+    name: "Host-Name"
+    id: 211
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 87.5
+        y: 7.25
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 104.414612
+        y: 50.875
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      fontSize: 13
+      fontColor {
+        alpha: 1
+        red: 0.50195997953414917
+        green: 0.50195997953414917
+        blue: 0.50195997953414917
+      }
+      fontName: "BrandonGrotesque-Regular"
+      boundsWidth: 175
+      boundsHeight: 14
+      isLabel: true
+      text: "Hosted by Judith"
+      multiline: true
+    }
+    classname: "CYISDFAtlasTextSceneNode"
+  }
+  layer {
+    name: "Icon-Star.png"
+    id: 212
+    sourceid: 68
+    transform {
+      anchorPoint {
+        x: 16.5
+        y: 16
+      }
+      scale {
+        x: 0.27734375
+        y: 0.27734375
+        z: 1
+      }
+      position {
+        x: 127.375
+        y: 58.0625
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Icon-Star.png"
+    id: 213
+    sourceid: 68
+    transform {
+      anchorPoint {
+        x: 16.5
+        y: 16
+      }
+      scale {
+        x: 0.27734375
+        y: 0.27734375
+        z: 1
+      }
+      position {
+        x: 116.328125
+        y: 58.0625
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Icon-Star.png"
+    id: 214
+    sourceid: 68
+    transform {
+      anchorPoint {
+        x: 16.5
+        y: 16
+      }
+      scale {
+        x: 0.27734375
+        y: 0.27734375
+        z: 1
+      }
+      position {
+        x: 105.28125
+        y: 58.0625
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Icon-Star.png"
+    id: 215
+    sourceid: 68
+    transform {
+      anchorPoint {
+        x: 16.5
+        y: 16
+      }
+      scale {
+        x: 0.27734375
+        y: 0.27734375
+        z: 1
+      }
+      position {
+        x: 94.234375
+        y: 58.0625
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Icon-Star.png"
+    id: 216
+    sourceid: 68
+    transform {
+      anchorPoint {
+        x: 16.5
+        y: 16
+      }
+      scale {
+        x: 0.27734375
+        y: 0.27734375
+        z: 1
+      }
+      position {
+        x: 83.1875
+        y: 58.0625
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Picture-Title"
+    id: 217
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 123.25
+        y: 12.25
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 141.300598
+        y: 35.25
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      fontSize: 18
+      fontColor {
+        alpha: 1
+        red: 0.18824000656604767
+        green: 0.18824000656604767
+        blue: 0.18824000656604767
+      }
+      fontName: "BrandonGrotesque-Medium"
+      boundsWidth: 246
+      boundsHeight: 24
+      isLabel: true
+      text: "Top of the world"
+      multiline: true
+    }
+    classname: "CYISDFAtlasTextSceneNode"
+  }
+  layer {
+    name: "Image-Profile.png"
+    id: 218
+    sourceid: 73
+    transform {
+      anchorPoint {
+        x: 98.5
+        y: 98.5
+      }
+      scale {
+        x: 0.1
+        y: 0.1
+        z: 1
+      }
+      position {
+        x: 39.75
+        y: 38.5
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.21176470588235294
+    green: 0.21176470588235294
+    blue: 0.21176470588235294
+  }
+}
+sources {
+  uid: 690015194
+  srctype: AE_IMAGE_SRC
+  name: "Btn-Book-Background.png"
+  width: 101
+  height: 35
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 2
+  srctype: AE_FONT_SRC
+  name: "BrandonGrotesque-Bold"
+  copy_source: true
+  file_name: "yi_Brandon Grotesque-Bold.otf"
+  style_name: "Bold"
+}
+sources {
+  uid: 3
+  srctype: AE_FONT_SRC
+  name: "BrandonGrotesque-Regular"
+  copy_source: true
+  file_name: "yi_Brandon Grotesque-Regular.otf"
+  style_name: "Regular"
+}
+sources {
+  uid: 68
+  srctype: AE_IMAGE_SRC
+  name: "Icon-Star.png"
+  width: 33
+  height: 32
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 5
+  srctype: AE_FONT_SRC
+  name: "BrandonGrotesque-Medium"
+  copy_source: true
+  file_name: "yi_Brandon Grotesque-Medium.otf"
+  style_name: "Medium"
+}
+sources {
+  uid: 73
+  srctype: AE_IMAGE_SRC
+  name: "Image-Profile.png"
+  width: 197
+  height: 197
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}

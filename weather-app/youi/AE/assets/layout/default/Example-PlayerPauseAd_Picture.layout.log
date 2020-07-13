@@ -1,0 +1,209 @@
+activecomp {
+  name: "Example-PlayerPauseAd_Picture"
+  width: 439
+  height: 477
+  defaultcameradistance: 609.722229
+  layer {
+    name: "Black Solid 4"
+    id: 74
+    sourceid: 272
+    transform {
+      anchorPoint {
+        x: 204.5
+        y: -3.55271368e-15
+      }
+      scale {
+        x: 1
+        z: 1
+      }
+      position {
+        x: 219.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "White Solid 2"
+    id: 75
+    sourceid: 274
+    transform {
+      anchorPoint {
+        x: 219.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 219.5
+        y: -77
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "White Solid 3"
+    id: 76
+    sourceid: 275
+    transform {
+      anchorPoint {
+        x: 219.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 219.5
+        y: -15
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "White Solid 5"
+    id: 77
+    sourceid: 276
+    transform {
+      anchorPoint {
+        x: 7.5
+      }
+      scale {
+        x: 1
+        z: 1
+      }
+      position {
+        x: 431.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "White Solid 5"
+    id: 78
+    sourceid: 276
+    transform {
+      anchorPoint {
+        x: 7.5
+      }
+      scale {
+        x: 1
+        z: 1
+      }
+      position {
+        x: 7.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Picture-Content"
+    id: 79
+    sourceid: 209
+    transform {
+      anchorPoint {
+        x: 219.5
+        y: 38.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 219.5
+        y: -38.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.21176470588235294
+    green: 0.21176470588235294
+    blue: 0.21176470588235294
+  }
+  properties {
+    key: "clip"
+    value: "true"
+  }
+  childtemplates: "Example-PlayerPauseAd_Picture-Content"
+}
+sources {
+  uid: 272
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+  }
+  width: 409
+  height: 385
+}
+sources {
+  uid: 274
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 1
+    green: 1
+    blue: 1
+  }
+  width: 439
+  height: 77
+}
+sources {
+  uid: 275
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 1
+    green: 1
+    blue: 1
+  }
+  width: 439
+  height: 15
+}
+sources {
+  uid: 276
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 1
+    green: 1
+    blue: 1
+  }
+  width: 15
+  height: 400
+}
+sources {
+  uid: 209
+  name: "Example-PlayerPauseAd_Picture-Content.layout"
+  width: 439
+  height: 77
+  copy_source: true
+}

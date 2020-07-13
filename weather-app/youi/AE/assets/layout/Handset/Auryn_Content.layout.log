@@ -1,0 +1,110 @@
+activecomp {
+  name: "Auryn_Content"
+  width: 1080
+  height: 1920
+  defaultcameradistance: 1500
+  layer {
+    name: "PDP"
+    id: 1158
+    sourceid: 1728
+    transform {
+      anchorPoint {
+        x: 540
+        y: 960
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 540
+        y: 960
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Lander"
+    id: 1159
+    sourceid: 1318
+    transform {
+      anchorPoint {
+        x: 540
+        y: 960
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 540
+        y: 960
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Splash"
+    id: 1160
+    sourceid: 1898
+    transform {
+      anchorPoint {
+        x: 540
+        y: 960
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 540
+        y: 960
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.2627450980392157
+    blue: 0.53725490196078429
+  }
+  childtemplates: "Auryn_PDP"
+  childtemplates: "Auryn_Lander"
+  childtemplates: "Auryn_Splash"
+}
+sources {
+  uid: 1728
+  name: "Auryn_PDP.layout"
+  width: 1080
+  height: 1920
+  copy_source: true
+}
+sources {
+  uid: 1318
+  name: "Auryn_Lander.layout"
+  width: 1080
+  height: 1920
+  copy_source: true
+}
+sources {
+  uid: 1898
+  name: "Auryn_Splash.layout"
+  width: 1080
+  height: 1920
+  copy_source: true
+}

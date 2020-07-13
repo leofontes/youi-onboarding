@@ -1,0 +1,238 @@
+activecomp {
+  name: "Auryn_Btn-Nav-List"
+  width: 150
+  height: 120
+  defaultcameradistance: 208.333328
+  layer {
+    name: "Backdrop-Gradient-Small.png"
+    id: 690014319
+    sourceid: 690015186
+    transform {
+      anchorPoint {
+        x: 292
+        y: 0.5
+      }
+      scale {
+        x: 1
+        y: 152.82
+        z: 1
+      }
+      position {
+        x: 75
+        y: -90
+      }
+      orientation {
+      }
+      rotationZ: 90
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "title"
+    id: 690014320
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 100
+        y: 21.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 74.1598282
+        y: 93.4581223
+      }
+      orientation {
+      }
+      opacity: 0.5
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 17
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-Bold"
+      boundsWidth: 200
+      boundsHeight: 33
+      isLabel: true
+      text: "Discover"
+      multiline: true
+      isAllCaps: true
+    }
+  }
+  layer {
+    name: "Nav-Icon"
+    id: 690014321
+    sourceid: 690016212
+    transform {
+      anchorPoint {
+        x: 30
+        y: 27.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        y: -2
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 690014322
+  }
+  layer {
+    name: "Toggle-Ctrl"
+    id: 690014322
+    sourceid: 690017005
+    transform {
+      anchorPoint {
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 75
+        y: 40
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Toggled-Container"
+    id: 690014323
+    sourceid: 690015309
+    transform {
+      anchorPoint {
+        x: 75
+        y: 60
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 75
+        y: 60
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Nav-Icon-Toggled"
+    id: 690014324
+    sourceid: 690016200
+    transform {
+      anchorPoint {
+        x: 30
+        y: 27.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 75
+        y: 38
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  classname: "CYIPushButtonView"
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "componentSubtype"
+    value: "push"
+  }
+  properties {
+    key: "componentType"
+    value: "button"
+  }
+  properties {
+    key: "clip"
+    value: "false"
+  }
+  childtemplates: "Auryn_Nav-Icon"
+  childtemplates: "Auryn_Toggled-Container"
+  childtemplates: "Auryn_Nav-Icon-Toggled"
+}
+sources {
+  uid: 690015186
+  srctype: AE_IMAGE_SRC
+  name: "Backdrop-Gradient-Small.png"
+  width: 292
+  height: 1
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 2
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Bold"
+  copy_source: true
+  file_name: "yi_Montserrat-Bold.otf"
+  style_name: "Bold"
+}
+sources {
+  uid: 690016212
+  name: "Auryn_Nav-Icon.layout"
+  width: 60
+  height: 55
+  copy_source: true
+}
+sources {
+  uid: 690017005
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+}
+sources {
+  uid: 690015309
+  name: "Auryn_Toggled-Container.layout"
+  width: 150
+  height: 120
+  copy_source: true
+}
+sources {
+  uid: 690016200
+  name: "Auryn_Nav-Icon-Toggled.layout"
+  width: 60
+  height: 55
+  copy_source: true
+}

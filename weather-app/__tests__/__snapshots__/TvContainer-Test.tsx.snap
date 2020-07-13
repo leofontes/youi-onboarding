@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "column",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={null}
+  >
+    <Composition
+      onTimelinesLoaded={[Function]}
+      source="Auryn_Container-Btn-Backdrop-Small"
+    >
+      <YiPushButtonView
+        name="Btn-Backdrop-Small"
+        onCompositionDidLoad={[Function]}
+        onFocus={[Function]}
+        onPress={[Function]}
+        onTimelinesLoaded={[Function]}
+      >
+        <YiImageView
+          name="Image-Dynamic"
+          onTimelinesLoaded={[Function]}
+          source={
+            Object {
+              "uri": "https://via.placeholder.com/534x300",
+            }
+          }
+        />
+        <YiTextSceneNode
+          name="Text-Title"
+          style={
+            Object {
+              "color": "#f6f1ee",
+            }
+          }
+          text="You.i TV"
+        />
+        <YiTextSceneNode
+          name="Text-Metadata"
+          text="tv"
+        />
+        <YiTextSceneNode
+          name="Unfocus-Text-Title"
+          text="You.i TV"
+        />
+      </YiPushButtonView>
+    </Composition>
+  </View>
+  <View
+    style={null}
+  >
+    <Composition
+      onTimelinesLoaded={[Function]}
+      source="Auryn_Container-Btn-Backdrop-Small"
+    >
+      <YiPushButtonView
+        name="Btn-Backdrop-Small"
+        onCompositionDidLoad={[Function]}
+        onFocus={[Function]}
+        onPress={[Function]}
+        onTimelinesLoaded={[Function]}
+      >
+        <YiImageView
+          name="Image-Dynamic"
+          onTimelinesLoaded={[Function]}
+          source={
+            Object {
+              "uri": "https://via.placeholder.com/534x300",
+            }
+          }
+        />
+        <YiTextSceneNode
+          name="Text-Title"
+          style={
+            Object {
+              "color": "#f6f1ee",
+            }
+          }
+          text="You.i TV"
+        />
+        <YiTextSceneNode
+          name="Text-Metadata"
+          text="tv"
+        />
+        <YiTextSceneNode
+          name="Unfocus-Text-Title"
+          text="You.i TV"
+        />
+      </YiPushButtonView>
+    </Composition>
+  </View>
+</View>
+`;

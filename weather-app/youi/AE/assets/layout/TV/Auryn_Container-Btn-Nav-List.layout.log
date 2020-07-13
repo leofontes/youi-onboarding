@@ -1,0 +1,42 @@
+activecomp {
+  name: "Auryn_Container-Btn-Nav-List"
+  width: 150
+  height: 120
+  defaultcameradistance: 208.333328
+  layer {
+    name: "Btn-Nav-List"
+    id: 690014402
+    sourceid: 690014319
+    transform {
+      anchorPoint {
+        x: 75
+        y: 60
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 75
+        y: 60
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+  }
+  childtemplates: "Auryn_Btn-Nav-List"
+}
+sources {
+  uid: 690014319
+  name: "Auryn_Btn-Nav-List.layout"
+  width: 150
+  height: 120
+  copy_source: true
+}

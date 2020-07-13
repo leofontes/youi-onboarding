@@ -1,0 +1,200 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 1406
+  targetname: "Dark Gray Solid 5"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 1407
+  targetname: "Image-Dynamic-Live-Asset"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: OPACITY
+  targetid: 1407
+  targetname: "Image-Dynamic-Live-Asset"
+  keytimes {
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 2
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 2.01666
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.991625547
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 2.03332
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.965909183
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 2.04998
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.923144817
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 2.06664
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.866091132
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 2.09995985
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.73513329
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 2.11661983
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.677848637
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 2.1332798
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.634768426
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 2.14993978
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.608709395
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 2.16666675
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.6
+  }
+  keytimes {
+    timeOffset: 2.5
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.6
+  }
+  keytimes {
+    timeOffset: 2.51666
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.628709912
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 2.53332
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.674208462
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 2.58329988
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.839355528
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 2.59995985
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.888984084
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 2.61661983
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.931290686
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 2.6332798
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.964610696
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 2.64993978
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.987752378
+    isCookedKeytime: true
+  }
+  keytimes {
+    timeOffset: 2.66666675
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  trackName: "Opacity"
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 1408
+  targetname: "Progress-Bar"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 1409
+  targetname: "Metadata"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 1410
+  targetname: "Details"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 1411
+  targetname: "PlayIcon.png"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+markers {
+  starttime: 2
+  duration: 0.166666672
+  name: "Press"
+  tracksSelection {
+    targetid: 1407
+    binding: OPACITY
+  }
+  id: 18
+}
+markers {
+  starttime: 2.5
+  duration: 0.166666672
+  name: "Release"
+  tracksSelection {
+    targetid: 1407
+    binding: OPACITY
+  }
+  id: 19
+}

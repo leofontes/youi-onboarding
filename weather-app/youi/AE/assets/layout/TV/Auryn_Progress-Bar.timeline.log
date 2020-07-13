@@ -1,0 +1,284 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690012736
+  targetname: "Progress-Bar10.png"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 1.11666667
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690012737
+  targetname: "Progress-Bar09.png"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 1.1
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 1.11666667
+    inttype: AE_INTERP_HOLD
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690012738
+  targetname: "Progress-Bar08.png"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 1.08333337
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 1.1
+    inttype: AE_INTERP_HOLD
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690012739
+  targetname: "Progress-Bar07.png"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 1.06666672
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 1.08333337
+    inttype: AE_INTERP_HOLD
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690012740
+  targetname: "Progress-Bar06.png"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 1.05000007
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 1.06666672
+    inttype: AE_INTERP_HOLD
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690012741
+  targetname: "Progress-Bar05.png"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 1.03333342
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 1.05000007
+    inttype: AE_INTERP_HOLD
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690012742
+  targetname: "Progress-Bar04.png"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 1.01666677
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 1.03333342
+    inttype: AE_INTERP_HOLD
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690012743
+  targetname: "Progress-Bar03.png"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0.99999994
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 1.01666665
+    inttype: AE_INTERP_HOLD
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690012744
+  targetname: "Progress-Bar02.png"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0.98333329
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0.99999994
+    inttype: AE_INTERP_HOLD
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690012745
+  targetname: "Progress-Bar01.png"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0.966666639
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0.98333329
+    inttype: AE_INTERP_HOLD
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690012746
+  targetname: "Progress-Bar00.png"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0.966666639
+    inttype: AE_INTERP_HOLD
+  }
+}
+tracks {
+  binding: OPACITY
+  targetid: 690012746
+  targetname: "Progress-Bar00.png"
+  keytimes {
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 0.95
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 1.13333333
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  trackName: "Opacity"
+}
+markers {
+  starttime: 0.95
+  duration: 0.183333337
+  name: "ProgressStart"
+  tracksSelection {
+    targetid: 690012736
+    binding: IS_VISIBLE
+  }
+  tracksSelection {
+    targetid: 690012737
+    binding: IS_VISIBLE
+  }
+  tracksSelection {
+    targetid: 690012738
+    binding: IS_VISIBLE
+  }
+  tracksSelection {
+    targetid: 690012739
+    binding: IS_VISIBLE
+  }
+  tracksSelection {
+    targetid: 690012740
+    binding: IS_VISIBLE
+  }
+  tracksSelection {
+    targetid: 690012741
+    binding: IS_VISIBLE
+  }
+  tracksSelection {
+    targetid: 690012742
+    binding: IS_VISIBLE
+  }
+  tracksSelection {
+    targetid: 690012743
+    binding: IS_VISIBLE
+  }
+  tracksSelection {
+    targetid: 690012744
+    binding: IS_VISIBLE
+  }
+  tracksSelection {
+    targetid: 690012745
+    binding: IS_VISIBLE
+  }
+  tracksSelection {
+    targetid: 690012746
+    binding: IS_VISIBLE
+  }
+  tracksSelection {
+    targetid: 690012746
+    binding: OPACITY
+  }
+  id: 27
+}

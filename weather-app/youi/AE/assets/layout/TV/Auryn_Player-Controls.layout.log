@@ -1,0 +1,347 @@
+activecomp {
+  name: "Auryn_Player-Controls"
+  width: 1920
+  height: 1080
+  defaultcameradistance: 2666.66675
+  layer {
+    name: "Gradient-Player.png"
+    id: 519919
+    sourceid: 891
+    transform {
+      anchorPoint {
+        x: 0.5
+        y: 274
+      }
+      scale {
+        x: 1920
+        y: 1.08029199
+        z: 1
+      }
+      position {
+        x: 960
+        y: 1044
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Player-Controls-Layout"
+    id: 519920
+    sourceid: 690014960
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 50
+        y: -158
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 519926
+  }
+  layer {
+    name: "Btn-MiniGuide"
+    id: 519921
+    sourceid: 690012982
+    transform {
+      anchorPoint {
+        x: 200
+        y: 40
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: -190
+        y: 772
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 519928
+  }
+  layer {
+    name: "Container-Btn-PlayPause"
+    id: 519922
+    sourceid: 690017014
+    transform {
+      anchorPoint {
+        x: 75
+        y: 75
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 138
+        y: 248
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 519927
+  }
+  layer {
+    name: "Btn-Back"
+    id: 519923
+    sourceid: 690011939
+    transform {
+      anchorPoint {
+        x: 50
+        y: 50
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 45
+        y: -113
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 519925
+  }
+  layer {
+    name: "Live-MiniGuide"
+    id: 519924
+    sourceid: 690014557
+    transform {
+      anchorPoint {
+        x: 404.417175
+        y: 540
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 404.417175
+        y: 540
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "ScalePropTopRightAnchor"
+    id: 519925
+    sourceid: 1480
+    transform {
+      anchorPoint {
+        x: 100
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1920
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "ScaleWidthPropBottomAnchor"
+    id: 519926
+    sourceid: 1480
+    transform {
+      anchorPoint {
+        x: 50
+        y: 100
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 1080
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "ScaleWidthPropBottomLeftAnchor"
+    id: 519927
+    sourceid: 1480
+    transform {
+      anchorPoint {
+        y: 100
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        y: 1080
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "ScaleWidthPropRightAnchor"
+    id: 519928
+    sourceid: 1480
+    transform {
+      anchorPoint {
+        x: 100
+        y: 50
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1920
+        y: 540
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Set-Ctrl"
+    id: 519929
+    sourceid: 690017039
+    transform {
+      anchorPoint {
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "clip"
+    value: "true"
+  }
+  childtemplates: "Auryn_Player-Controls-Layout"
+  childtemplates: "Auryn_Btn-MiniGuide"
+  childtemplates: "Auryn_Container-Btn-PlayPause"
+  childtemplates: "Auryn_Btn-Back"
+  childtemplates: "Auryn_Live-MiniGuide"
+}
+sources {
+  uid: 891
+  srctype: AE_IMAGE_SRC
+  name: "Gradient-Player.png"
+  width: 1
+  height: 548
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 690014960
+  name: "Auryn_Player-Controls-Layout.layout"
+  width: 1920
+  height: 1080
+  copy_source: true
+}
+sources {
+  uid: 690012982
+  name: "Auryn_Btn-MiniGuide.layout"
+  width: 400
+  height: 80
+  copy_source: true
+}
+sources {
+  uid: 690017014
+  name: "Auryn_Container-Btn-PlayPause.layout"
+  width: 150
+  height: 150
+  copy_source: true
+}
+sources {
+  uid: 690011939
+  name: "Auryn_Btn-Back.layout"
+  width: 100
+  height: 100
+  copy_source: true
+}
+sources {
+  uid: 690014557
+  name: "Auryn_Live-MiniGuide.layout"
+  width: 1920
+  height: 1080
+  copy_source: true
+}
+sources {
+  uid: 1480
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+}
+sources {
+  uid: 690017039
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+}

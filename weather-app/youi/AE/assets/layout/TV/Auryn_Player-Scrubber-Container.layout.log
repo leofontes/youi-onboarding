@@ -1,0 +1,104 @@
+activecomp {
+  name: "Auryn_Player-Scrubber-Container"
+  width: 1920
+  height: 62
+  defaultcameradistance: 2666.66675
+  layer {
+    name: "Duration"
+    id: 690014922
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 84
+        y: 50
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1726
+        y: 323.360168
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 24
+      fontColor {
+        alpha: 1
+        red: 0.92548996210098267
+        green: 0.92548996210098267
+        blue: 0.92548996210098267
+      }
+      fontName: "Montserrat-Medium"
+      boundsWidth: 224
+      boundsHeight: 52
+      isLabel: true
+      multiline: true
+      ellipsis: true
+      isAllCaps: true
+    }
+    properties {
+      key: "text-overflow"
+      value: "ellipsis"
+    }
+    properties {
+      key: "text-placeholder"
+      value: "true"
+    }
+  }
+  layer {
+    name: "Bar"
+    id: 690014923
+    sourceid: 519942
+    transform {
+      anchorPoint {
+        y: 30
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 147
+        y: 294
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "clip"
+    value: "true"
+  }
+  childtemplates: "Auryn_Player-Scrubber"
+}
+sources {
+  uid: 1
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Medium"
+  copy_source: true
+  file_name: "yi_Montserrat-Medium.otf"
+  style_name: "Medium"
+}
+sources {
+  uid: 519942
+  name: "Auryn_Player-Scrubber.layout"
+  width: 1600
+  height: 60
+  copy_source: true
+}

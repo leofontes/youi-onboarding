@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "transparent",
+    }
+  }
+>
+  <View
+    style={null}
+  >
+    <Composition
+      onTimelinesLoaded={[Function]}
+      source="Auryn_Container-Btn-Backdrop-Large"
+    >
+      <YiPushButtonView
+        name="Btn-Backdrop-Large"
+        onCompositionDidLoad={[Function]}
+        onFocus={[Function]}
+        onPress={[Function]}
+        onTimelinesLoaded={[Function]}
+      >
+        <YiImageView
+          name="Image-Dynamic"
+          onTimelinesLoaded={[Function]}
+          source={
+            Object {
+              "uri": "https://via.placeholder.com/1068x600",
+            }
+          }
+        />
+        <YiTextSceneNode
+          name="Text-Title"
+          style={
+            Object {
+              "color": "#f6f1ee",
+            }
+          }
+          text="You.i TV"
+        />
+        <YiTextSceneNode
+          name="Text-Metadata"
+          text="tv"
+        />
+        <YiTextSceneNode
+          name="Unfocus-Text-Title"
+          text="You.i TV"
+        />
+        <YiTextSceneNode
+          name="Text-Details"
+          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        />
+      </YiPushButtonView>
+    </Composition>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <View
+      style={null}
+    >
+      <Composition
+        onTimelinesLoaded={[Function]}
+        source="Auryn_Container-Btn-Backdrop-Small"
+      >
+        <YiPushButtonView
+          name="Btn-Backdrop-Small"
+          onCompositionDidLoad={[Function]}
+          onFocus={[Function]}
+          onPress={[Function]}
+          onTimelinesLoaded={[Function]}
+        >
+          <YiImageView
+            name="Image-Dynamic"
+            onTimelinesLoaded={[Function]}
+            source={
+              Object {
+                "uri": "https://via.placeholder.com/534x300",
+              }
+            }
+          />
+          <YiTextSceneNode
+            name="Text-Title"
+            style={
+              Object {
+                "color": "#f6f1ee",
+              }
+            }
+            text="You.i TV"
+          />
+          <YiTextSceneNode
+            name="Text-Metadata"
+            text="tv"
+          />
+          <YiTextSceneNode
+            name="Unfocus-Text-Title"
+            text="You.i TV"
+          />
+        </YiPushButtonView>
+      </Composition>
+    </View>
+    <View
+      style={null}
+    >
+      <Composition
+        onTimelinesLoaded={[Function]}
+        source="Auryn_Container-Btn-Backdrop-Small"
+      >
+        <YiPushButtonView
+          name="Btn-Backdrop-Small"
+          onCompositionDidLoad={[Function]}
+          onFocus={[Function]}
+          onPress={[Function]}
+          onTimelinesLoaded={[Function]}
+        >
+          <YiImageView
+            name="Image-Dynamic"
+            onTimelinesLoaded={[Function]}
+            source={
+              Object {
+                "uri": "https://via.placeholder.com/534x300",
+              }
+            }
+          />
+          <YiTextSceneNode
+            name="Text-Title"
+            style={
+              Object {
+                "color": "#f6f1ee",
+              }
+            }
+            text="You.i TV"
+          />
+          <YiTextSceneNode
+            name="Text-Metadata"
+            text="tv"
+          />
+          <YiTextSceneNode
+            name="Unfocus-Text-Title"
+            text="You.i TV"
+          />
+        </YiPushButtonView>
+      </Composition>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,217 @@
+activecomp {
+  name: "Auryn_Layout-PDP-Meta"
+  width: 848
+  height: 589
+  defaultcameradistance: 1177.77783
+  layer {
+    name: "Gradient-PDP.png"
+    id: 342
+    sourceid: 690016250
+    transform {
+      anchorPoint {
+        x: 0.5
+        y: 294.5
+      }
+      scale {
+        x: 782
+        y: 1.01867604
+        z: 1
+      }
+      position {
+        x: 424
+        y: 294.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    properties {
+      key: "background"
+      value: "true"
+    }
+  }
+  layer {
+    name: "Layout-PDP-Meta-Body"
+    id: 343
+    sourceid: 690015213
+    transform {
+      anchorPoint {
+        x: 368
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 424
+        y: 263.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Text-Title"
+    id: 344
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 226.03476
+        y: 40.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 282.03476
+        y: 91
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      fontSize: 49
+      fontColor {
+        alpha: 1
+        red: 1
+        green: 1
+        blue: 1
+      }
+      fontName: "Montserrat-Bold"
+      boundsWidth: 736
+      boundsHeight: 218
+      isLabel: true
+      multiline: true
+      ellipsis: true
+      isAllCaps: true
+    }
+    classname: "CYISDFAtlasTextSceneNode"
+    properties {
+      key: "text-placeholder"
+      value: "true"
+    }
+    properties {
+      key: "text-overflow"
+      value: "ellipsis"
+    }
+    properties {
+      key: "margin-bottom"
+      value: "10"
+    }
+  }
+  layer {
+    name: "Text-Metadata"
+    id: 345
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 248.5
+        y: 40.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 302.744659
+        y: 51
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      fontSize: 21
+      fontColor {
+        alpha: 1
+        red: 1
+        green: 1
+        blue: 1
+      }
+      fontName: "Montserrat-Bold"
+      boundsWidth: 737
+      boundsHeight: 24
+      isLabel: true
+      multiline: true
+      ellipsis: true
+      isAllCaps: true
+    }
+    classname: "CYISDFAtlasTextSceneNode"
+    properties {
+      key: "text-placeholder"
+      value: "true"
+    }
+    properties {
+      key: "text-overflow"
+      value: "ellipsis"
+    }
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.32941176470588235
+    green: 0.32941176470588235
+    blue: 0.32941176470588235
+  }
+  properties {
+    key: "padding-top"
+    value: "60"
+  }
+  properties {
+    key: "layout"
+    value: "CYIColumnLayout"
+  }
+  properties {
+    key: "padding-left"
+    value: "56"
+  }
+  properties {
+    key: "padding-right"
+    value: "56"
+  }
+  properties {
+    key: "padding-bottom"
+    value: "60"
+  }
+  properties {
+    key: "gravity"
+    value: "left"
+  }
+  childtemplates: "Auryn_Layout-PDP-Meta-Body"
+}
+sources {
+  uid: 690016250
+  srctype: AE_IMAGE_SRC
+  name: "Gradient-PDP.png"
+  width: 1
+  height: 589
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 690015213
+  name: "Auryn_Layout-PDP-Meta-Body.layout"
+  width: 736
+  height: 293
+  copy_source: true
+}
+sources {
+  uid: 3
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Bold"
+  copy_source: true
+  file_name: "yi_Montserrat-Bold.otf"
+  style_name: "Bold"
+}

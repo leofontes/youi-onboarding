@@ -1,0 +1,65 @@
+activecomp {
+  name: "Auryn_Live-Asset-Root"
+  width: 848
+  height: 233
+  defaultcameradistance: 1177.77783
+  layer {
+    name: "Live-Asset"
+    id: 690014103
+    sourceid: 690012635
+    transform {
+      anchorPoint {
+        x: 424
+        y: 116.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 423.5
+        y: 116.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "spacing"
+    value: "8"
+  }
+  properties {
+    key: "columns"
+    value: "2"
+  }
+  properties {
+    key: "padding-top"
+    value: "15"
+  }
+  properties {
+    key: "padding-left"
+    value: "5"
+  }
+  properties {
+    key: "padding-right"
+    value: "5"
+  }
+  childtemplates: "Auryn_Live-Asset"
+}
+sources {
+  uid: 690012635
+  name: "Auryn_Live-Asset.layout"
+  width: 848
+  height: 233
+  copy_source: true
+}

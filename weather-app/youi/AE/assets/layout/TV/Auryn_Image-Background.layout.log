@@ -1,0 +1,53 @@
+activecomp {
+  name: "Auryn_Image-Background"
+  width: 1920
+  height: 1080
+  defaultcameradistance: 2666.66675
+  layer {
+    name: "ImageNode"
+    id: 467
+    sourceid: 1485
+    transform {
+      anchorPoint {
+        x: 960
+        y: 540
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 540
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  classname: "CYIImageView"
+  bgcolor {
+    alpha: 1
+    red: 0.25098039215686274
+    green: 0.23921568627450981
+    blue: 0.23921568627450981
+  }
+  properties {
+    key: "componentType"
+    value: "image"
+  }
+}
+sources {
+  uid: 1485
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.0941176488995552
+    green: 0.0941176488995552
+    blue: 0.0941176488995552
+  }
+  width: 1920
+  height: 1080
+}

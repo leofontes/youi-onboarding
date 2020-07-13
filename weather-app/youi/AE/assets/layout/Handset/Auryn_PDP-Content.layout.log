@@ -1,0 +1,86 @@
+activecomp {
+  name: "Auryn_PDP-Content"
+  width: 1080
+  height: 1920
+  defaultcameradistance: 1500
+  layer {
+    name: "PDP-Scroller"
+    id: 690015823
+    sourceid: 1741
+    transform {
+      anchorPoint {
+        x: 540
+        y: 960
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 540
+        y: 960
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    properties {
+      key: "height"
+      value: "fill-parent"
+    }
+  }
+  layer {
+    name: "Scroller_Ctrl"
+    id: 690015824
+    sourceid: 690017043
+    transform {
+      anchorPoint {
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 540
+        y: 960
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "layout"
+    value: "CYIScalingLayout"
+  }
+  properties {
+    key: "scale-mode"
+    value: "fit"
+  }
+  childtemplates: "Auryn_PDP-Scroller"
+}
+sources {
+  uid: 1741
+  name: "Auryn_PDP-Scroller.layout"
+  width: 1080
+  height: 1920
+  copy_source: true
+}
+sources {
+  uid: 690017043
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+}

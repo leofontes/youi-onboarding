@@ -1,0 +1,20 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 519991
+  targetname: "White Solid 15"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 519992
+  targetname: "White Solid 15"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}

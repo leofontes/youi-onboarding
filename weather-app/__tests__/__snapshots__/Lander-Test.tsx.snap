@@ -1,0 +1,941 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<Composition
+  onTimelinesLoaded={[Function]}
+  source="Auryn_Lander"
+>
+  <ListRef
+    DEPRECATED_sendUpdatedChildFrames={false}
+    alwaysBounceHorizontal={true}
+    alwaysBounceVertical={false}
+    horizontal={true}
+    initialToggleIndex={0}
+    name="Nav-List"
+    onContentSizeChange={null}
+    onLayout={[MockFunction]}
+    onMomentumScrollBegin={[MockFunction]}
+    onMomentumScrollEnd={[MockFunction]}
+    onPressItem={[Function]}
+    onResponderGrant={[MockFunction]}
+    onResponderReject={[MockFunction]}
+    onResponderRelease={[MockFunction]}
+    onResponderTerminationRequest={[MockFunction]}
+    onScroll={[MockFunction]}
+    onScrollBeginDrag={[MockFunction]}
+    onScrollEndDrag={[MockFunction]}
+    onScrollShouldSetResponder={[MockFunction]}
+    onStartShouldSetResponder={[MockFunction]}
+    onStartShouldSetResponderCapture={[MockFunction]}
+    onTouchCancel={[MockFunction]}
+    onTouchEnd={[MockFunction]}
+    onTouchMove={[MockFunction]}
+    onTouchStart={[MockFunction]}
+    scrollBarThumbImage={null}
+    scrollEnabled={false}
+    sendMomentumEvents={false}
+    snapToEnd={true}
+    snapToStart={true}
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "overflow": "scroll",
+        },
+        undefined,
+      ]
+    }
+  >
+    <ScrollContentData
+      collapsable={false}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "minWidth": "100%",
+          }
+        }
+      >
+        <Composition
+          onTimelinesLoaded={[Function]}
+          source="Auryn_Container-Btn-Nav-List"
+        >
+          <YiPushButtonView
+            name="Btn-Nav-List"
+            onCompositionDidLoad={[Function]}
+            onFocus={[Function]}
+            onPress={[Function]}
+            onTimelinesLoaded={[Function]}
+          >
+            <TimelineRef
+              autoplay={true}
+              direction="forward"
+              loop={false}
+              name="Toggle-On"
+              onAborted={[Function]}
+              onCompleted={[Function]}
+              onCompletedForward={[Function]}
+              onCompletedReverse={[Function]}
+              onCompositionDidLoad={[Function]}
+              onPaused={[Function]}
+              onPausedForward={[Function]}
+              onPausedReverse={[Function]}
+              onPlay={[Function]}
+              onPlayForward={[Function]}
+              onPlayReverse={[Function]}
+              onStarted={[Function]}
+              onStartedForward={[Function]}
+              onStartedReverse={[Function]}
+            />
+            <YiTextSceneNode
+              name="title"
+              style={
+                Object {
+                  "color": "#F1F1F1",
+                }
+              }
+              text="Discover"
+            />
+            <YiImageView
+              name="Nav-Icon"
+              onTimelinesLoaded={[Function]}
+              source={
+                Object {
+                  "uri": "res://drawable/default/Default-Nav-Icon.png",
+                }
+              }
+            />
+            <YiImageView
+              name="Nav-Icon-Toggled"
+              onTimelinesLoaded={[Function]}
+              source={
+                Object {
+                  "uri": "res://drawable/default/Default-Toggled-Nav-Icon.png",
+                }
+              }
+              style={
+                Object {
+                  "resizeMode": "contain",
+                }
+              }
+            />
+            <YiTextSceneNode
+              name="title-toggled"
+              text="Discover"
+            />
+          </YiPushButtonView>
+        </Composition>
+        <Composition
+          onTimelinesLoaded={[Function]}
+          source="Auryn_Container-Btn-Nav-List"
+        >
+          <YiPushButtonView
+            name="Btn-Nav-List"
+            onCompositionDidLoad={[Function]}
+            onFocus={[Function]}
+            onPress={[Function]}
+            onTimelinesLoaded={[Function]}
+          >
+            <TimelineRef
+              autoplay={false}
+              direction="reverse"
+              loop={false}
+              name="Toggle-On"
+              onAborted={[Function]}
+              onCompleted={[Function]}
+              onCompletedForward={[Function]}
+              onCompletedReverse={[Function]}
+              onCompositionDidLoad={[Function]}
+              onPaused={[Function]}
+              onPausedForward={[Function]}
+              onPausedReverse={[Function]}
+              onPlay={[Function]}
+              onPlayForward={[Function]}
+              onPlayReverse={[Function]}
+              onStarted={[Function]}
+              onStartedForward={[Function]}
+              onStartedReverse={[Function]}
+            />
+            <YiTextSceneNode
+              name="title"
+              style={
+                Object {
+                  "color": "#F1F1F1",
+                }
+              }
+              text="Movies"
+            />
+            <YiImageView
+              name="Nav-Icon"
+              onTimelinesLoaded={[Function]}
+              source={
+                Object {
+                  "uri": "res://drawable/default/Movie-Nav-Icon.png",
+                }
+              }
+            />
+            <YiImageView
+              name="Nav-Icon-Toggled"
+              onTimelinesLoaded={[Function]}
+              source={
+                Object {
+                  "uri": "res://drawable/default/Movie-Toggled-Nav-Icon.png",
+                }
+              }
+              style={
+                Object {
+                  "resizeMode": "contain",
+                }
+              }
+            />
+            <YiTextSceneNode
+              name="title-toggled"
+              text="Movies"
+            />
+          </YiPushButtonView>
+        </Composition>
+        <Composition
+          onTimelinesLoaded={[Function]}
+          source="Auryn_Container-Btn-Nav-List"
+        >
+          <YiPushButtonView
+            name="Btn-Nav-List"
+            onCompositionDidLoad={[Function]}
+            onFocus={[Function]}
+            onPress={[Function]}
+            onTimelinesLoaded={[Function]}
+          >
+            <TimelineRef
+              autoplay={false}
+              direction="reverse"
+              loop={false}
+              name="Toggle-On"
+              onAborted={[Function]}
+              onCompleted={[Function]}
+              onCompletedForward={[Function]}
+              onCompletedReverse={[Function]}
+              onCompositionDidLoad={[Function]}
+              onPaused={[Function]}
+              onPausedForward={[Function]}
+              onPausedReverse={[Function]}
+              onPlay={[Function]}
+              onPlayForward={[Function]}
+              onPlayReverse={[Function]}
+              onStarted={[Function]}
+              onStartedForward={[Function]}
+              onStartedReverse={[Function]}
+            />
+            <YiTextSceneNode
+              name="title"
+              style={
+                Object {
+                  "color": "#F1F1F1",
+                }
+              }
+              text="Shows"
+            />
+            <YiImageView
+              name="Nav-Icon"
+              onTimelinesLoaded={[Function]}
+              source={
+                Object {
+                  "uri": "res://drawable/default/Series-Nav-Icon.png",
+                }
+              }
+            />
+            <YiImageView
+              name="Nav-Icon-Toggled"
+              onTimelinesLoaded={[Function]}
+              source={
+                Object {
+                  "uri": "res://drawable/default/Series-Toggled-Nav-Icon.png",
+                }
+              }
+              style={
+                Object {
+                  "resizeMode": "contain",
+                }
+              }
+            />
+            <YiTextSceneNode
+              name="title-toggled"
+              text="Shows"
+            />
+          </YiPushButtonView>
+        </Composition>
+        <Composition
+          onTimelinesLoaded={[Function]}
+          source="Auryn_Container-Btn-Nav-List"
+        >
+          <YiPushButtonView
+            name="Btn-Nav-List"
+            onCompositionDidLoad={[Function]}
+            onFocus={[Function]}
+            onPress={[Function]}
+            onTimelinesLoaded={[Function]}
+          >
+            <TimelineRef
+              autoplay={false}
+              direction="reverse"
+              loop={false}
+              name="Toggle-On"
+              onAborted={[Function]}
+              onCompleted={[Function]}
+              onCompletedForward={[Function]}
+              onCompletedReverse={[Function]}
+              onCompositionDidLoad={[Function]}
+              onPaused={[Function]}
+              onPausedForward={[Function]}
+              onPausedReverse={[Function]}
+              onPlay={[Function]}
+              onPlayForward={[Function]}
+              onPlayReverse={[Function]}
+              onStarted={[Function]}
+              onStartedForward={[Function]}
+              onStartedReverse={[Function]}
+            />
+            <YiTextSceneNode
+              name="title"
+              style={
+                Object {
+                  "color": "#F1F1F1",
+                }
+              }
+              text="Live"
+            />
+            <YiImageView
+              name="Nav-Icon"
+              onTimelinesLoaded={[Function]}
+              source={
+                Object {
+                  "uri": "res://drawable/default/Live-Nav-Icon.png",
+                }
+              }
+            />
+            <YiImageView
+              name="Nav-Icon-Toggled"
+              onTimelinesLoaded={[Function]}
+              source={
+                Object {
+                  "uri": "res://drawable/default/Live-Toggled-Nav-Icon.png",
+                }
+              }
+              style={
+                Object {
+                  "resizeMode": "contain",
+                }
+              }
+            />
+            <YiTextSceneNode
+              name="title-toggled"
+              text="Live"
+            />
+          </YiPushButtonView>
+        </Composition>
+      </View>
+    </ScrollContentData>
+  </ListRef>
+  <YiPushButtonView
+    name="Btn-Nav-Search"
+    onCompositionDidLoad={[Function]}
+    onPress={[Function]}
+    onTimelinesLoaded={[Function]}
+  />
+  <YiPushButtonView
+    name="Btn-Nav-Profile"
+    onCompositionDidLoad={[Function]}
+    onPress={[Function]}
+    onTimelinesLoaded={[Function]}
+  />
+  <TimelineRef
+    loop={false}
+    name="LanderIn"
+    onAborted={[Function]}
+    onCompleted={[Function]}
+    onCompletedForward={[Function]}
+    onCompletedReverse={[Function]}
+    onCompositionDidLoad={[Function]}
+    onPaused={[Function]}
+    onPausedForward={[Function]}
+    onPausedReverse={[Function]}
+    onPlay={[Function]}
+    onPlayForward={[Function]}
+    onPlayReverse={[Function]}
+    onStarted={[Function]}
+    onStartedForward={[Function]}
+    onStartedReverse={[Function]}
+  />
+  <TimelineRef
+    loop={false}
+    name="LanderOut"
+    onAborted={[Function]}
+    onCompleted={[Function]}
+    onCompletedForward={[Function]}
+    onCompletedReverse={[Function]}
+    onCompositionDidLoad={[Function]}
+    onPaused={[Function]}
+    onPausedForward={[Function]}
+    onPausedReverse={[Function]}
+    onPlay={[Function]}
+    onPlayForward={[Function]}
+    onPlayReverse={[Function]}
+    onStarted={[Function]}
+    onStartedForward={[Function]}
+    onStartedReverse={[Function]}
+  />
+  <ListRef
+    DEPRECATED_sendUpdatedChildFrames={false}
+    alwaysBounceHorizontal={false}
+    alwaysBounceVertical={true}
+    data={
+      Array [
+        <_class
+          source="Auryn_Container-Lander-List"
+        >
+          <List
+            data={Array []}
+            name="Lander-List"
+            onFocusItem={[Function]}
+            onPressItem={[Function]}
+            type={0}
+          />
+        </_class>,
+        <_class
+          source="Auryn_Container-Lander-List"
+          style={
+            Object {
+              "marginTop": 0,
+            }
+          }
+        >
+          <List
+            data={Array []}
+            name="Lander-List"
+            onFocusItem={[Function]}
+            onPressItem={[Function]}
+            snapToAlignment="center"
+            type={1}
+          />
+        </_class>,
+        <_class
+          source="Auryn_Container-Lander-List"
+        >
+          <List
+            data={Array []}
+            name="Lander-List"
+            onFocusItem={[Function]}
+            onPressItem={[Function]}
+            type={2}
+          />
+        </_class>,
+        <_class
+          source="Auryn_Container-Live"
+          style={
+            Object {
+              "marginTop": 0,
+            }
+          }
+        >
+          <List
+            data={Array []}
+            name="LiveList"
+            onFocusItem={[Function]}
+            onPressItem={[Function]}
+            type={6}
+          />
+        </_class>,
+      ]
+    }
+    disableVirtualization={false}
+    focusable={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    name="Stack"
+    numColumns={1}
+    onContentSizeChange={null}
+    onEndReachedThreshold={2}
+    onLayout={[MockFunction]}
+    onMomentumScrollBegin={[MockFunction]}
+    onMomentumScrollEnd={[MockFunction]}
+    onResponderGrant={[MockFunction]}
+    onResponderReject={[MockFunction]}
+    onResponderRelease={[MockFunction]}
+    onResponderTerminationRequest={[MockFunction]}
+    onScroll={[MockFunction]}
+    onScrollBeginDrag={[MockFunction]}
+    onScrollEndDrag={[MockFunction]}
+    onScrollShouldSetResponder={[MockFunction]}
+    onStartShouldSetResponder={[MockFunction]}
+    onStartShouldSetResponderCapture={[MockFunction]}
+    onTouchCancel={[MockFunction]}
+    onTouchEnd={[MockFunction]}
+    onTouchMove={[MockFunction]}
+    onTouchStart={[MockFunction]}
+    onViewableItemsChanged={[Function]}
+    renderItem={[Function]}
+    renderScrollComponent={[Function]}
+    scrollBarThumbImage={null}
+    scrollEnabled={false}
+    scrollEventThrottle={50}
+    sendMomentumEvents={true}
+    snapToEnd={true}
+    snapToStart={true}
+    stickyHeaderIndices={Array []}
+    style={
+      Array [
+        Object {
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "overflow": "scroll",
+        },
+        undefined,
+      ]
+    }
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={
+      Array [
+        Object {
+          "onViewableItemsChanged": [Function],
+          "viewabilityConfig": undefined,
+        },
+      ]
+    }
+    windowSize={21}
+  >
+    <ScrollContentData
+      collapsable={false}
+      onLayout={[MockFunction]}
+      style={
+        Array [
+          false,
+          undefined,
+        ]
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Composition
+          onTimelinesLoaded={[Function]}
+          source="Auryn_Container-Lander-List"
+        >
+          <ListRef
+            DEPRECATED_sendUpdatedChildFrames={false}
+            alwaysBounceHorizontal={true}
+            alwaysBounceVertical={false}
+            data={Array []}
+            disableVirtualization={false}
+            getItem={[Function]}
+            getItemCount={[Function]}
+            getItemLayout={[Function]}
+            horizontal={true}
+            initialNumToRender={2}
+            keyExtractor={[Function]}
+            maxToRenderPerBatch={10}
+            name="Lander-List"
+            numColumns={1}
+            onContentSizeChange={null}
+            onEndReachedThreshold={2}
+            onLayout={[MockFunction]}
+            onMomentumScrollBegin={[MockFunction]}
+            onMomentumScrollEnd={[MockFunction]}
+            onResponderGrant={[MockFunction]}
+            onResponderReject={[MockFunction]}
+            onResponderRelease={[MockFunction]}
+            onResponderTerminationRequest={[MockFunction]}
+            onScroll={[MockFunction]}
+            onScrollBeginDrag={[MockFunction]}
+            onScrollEndDrag={[MockFunction]}
+            onScrollShouldSetResponder={[MockFunction]}
+            onStartShouldSetResponder={[MockFunction]}
+            onStartShouldSetResponderCapture={[MockFunction]}
+            onTouchCancel={[MockFunction]}
+            onTouchEnd={[MockFunction]}
+            onTouchMove={[MockFunction]}
+            onTouchStart={[MockFunction]}
+            renderItem={[Function]}
+            renderScrollComponent={[Function]}
+            scrollBarThumbImage={null}
+            scrollEnabled={true}
+            scrollEventThrottle={50}
+            sendMomentumEvents={true}
+            snapToEnd={true}
+            snapToStart={true}
+            stickyHeaderIndices={Array []}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "overflow": "scroll",
+                },
+                undefined,
+              ]
+            }
+            updateCellsBatchingPeriod={50}
+            viewabilityConfigCallbackPairs={Array []}
+            windowSize={21}
+          >
+            <ScrollContentData
+              collapsable={false}
+              onLayout={[MockFunction]}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </ListRef>
+          <ViewRef
+            name="Lander-List"
+            onCompositionDidLoad={[Function]}
+            onTimelinesLoaded={[Function]}
+          />
+        </Composition>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Composition
+          onTimelinesLoaded={[Function]}
+          source="Auryn_Container-Lander-List"
+          style={
+            Object {
+              "marginTop": 0,
+            }
+          }
+        >
+          <ListRef
+            DEPRECATED_sendUpdatedChildFrames={false}
+            ListHeaderComponent={[Function]}
+            alwaysBounceHorizontal={true}
+            alwaysBounceVertical={false}
+            data={Array []}
+            disableVirtualization={false}
+            getItem={[Function]}
+            getItemCount={[Function]}
+            getItemLayout={[Function]}
+            horizontal={true}
+            initialNumToRender={2}
+            keyExtractor={[Function]}
+            maxToRenderPerBatch={10}
+            name="Lander-List"
+            numColumns={1}
+            onContentSizeChange={null}
+            onEndReachedThreshold={2}
+            onLayout={[MockFunction]}
+            onMomentumScrollBegin={[MockFunction]}
+            onMomentumScrollEnd={[MockFunction]}
+            onResponderGrant={[MockFunction]}
+            onResponderReject={[MockFunction]}
+            onResponderRelease={[MockFunction]}
+            onResponderTerminationRequest={[MockFunction]}
+            onScroll={[MockFunction]}
+            onScrollBeginDrag={[MockFunction]}
+            onScrollEndDrag={[MockFunction]}
+            onScrollShouldSetResponder={[MockFunction]}
+            onStartShouldSetResponder={[MockFunction]}
+            onStartShouldSetResponderCapture={[MockFunction]}
+            onTouchCancel={[MockFunction]}
+            onTouchEnd={[MockFunction]}
+            onTouchMove={[MockFunction]}
+            onTouchStart={[MockFunction]}
+            renderItem={[Function]}
+            renderScrollComponent={[Function]}
+            scrollBarThumbImage={null}
+            scrollEnabled={true}
+            scrollEventThrottle={50}
+            sendMomentumEvents={true}
+            snapToAlignment="center"
+            snapToEnd={true}
+            snapToStart={true}
+            stickyHeaderIndices={Array []}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "overflow": "scroll",
+                },
+                undefined,
+              ]
+            }
+            updateCellsBatchingPeriod={50}
+            viewabilityConfigCallbackPairs={Array []}
+            windowSize={21}
+          >
+            <ScrollContentData
+              collapsable={false}
+              onLayout={[MockFunction]}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                onLayout={[Function]}
+              />
+            </ScrollContentData>
+          </ListRef>
+          <ViewRef
+            name="Lander-List"
+            onCompositionDidLoad={[Function]}
+            onTimelinesLoaded={[Function]}
+          />
+        </Composition>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Composition
+          onTimelinesLoaded={[Function]}
+          source="Auryn_Container-Lander-List"
+        >
+          <ListRef
+            DEPRECATED_sendUpdatedChildFrames={false}
+            alwaysBounceHorizontal={true}
+            alwaysBounceVertical={false}
+            data={Array []}
+            disableVirtualization={false}
+            getItem={[Function]}
+            getItemCount={[Function]}
+            getItemLayout={[Function]}
+            horizontal={true}
+            initialNumToRender={2}
+            keyExtractor={[Function]}
+            maxToRenderPerBatch={10}
+            name="Lander-List"
+            numColumns={1}
+            onContentSizeChange={null}
+            onEndReachedThreshold={2}
+            onLayout={[MockFunction]}
+            onMomentumScrollBegin={[MockFunction]}
+            onMomentumScrollEnd={[MockFunction]}
+            onResponderGrant={[MockFunction]}
+            onResponderReject={[MockFunction]}
+            onResponderRelease={[MockFunction]}
+            onResponderTerminationRequest={[MockFunction]}
+            onScroll={[MockFunction]}
+            onScrollBeginDrag={[MockFunction]}
+            onScrollEndDrag={[MockFunction]}
+            onScrollShouldSetResponder={[MockFunction]}
+            onStartShouldSetResponder={[MockFunction]}
+            onStartShouldSetResponderCapture={[MockFunction]}
+            onTouchCancel={[MockFunction]}
+            onTouchEnd={[MockFunction]}
+            onTouchMove={[MockFunction]}
+            onTouchStart={[MockFunction]}
+            renderItem={[Function]}
+            renderScrollComponent={[Function]}
+            scrollBarThumbImage={null}
+            scrollEnabled={true}
+            scrollEventThrottle={50}
+            sendMomentumEvents={true}
+            snapToEnd={true}
+            snapToStart={true}
+            stickyHeaderIndices={Array []}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "overflow": "scroll",
+                },
+                undefined,
+              ]
+            }
+            updateCellsBatchingPeriod={50}
+            viewabilityConfigCallbackPairs={Array []}
+            windowSize={21}
+          >
+            <ScrollContentData
+              collapsable={false}
+              onLayout={[MockFunction]}
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </ListRef>
+          <ViewRef
+            name="Lander-List"
+            onCompositionDidLoad={[Function]}
+            onTimelinesLoaded={[Function]}
+          />
+        </Composition>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Composition
+          onTimelinesLoaded={[Function]}
+          source="Auryn_Container-Live"
+          style={
+            Object {
+              "marginTop": 0,
+            }
+          }
+        >
+          <ListRef
+            DEPRECATED_sendUpdatedChildFrames={false}
+            alwaysBounceHorizontal={false}
+            alwaysBounceVertical={true}
+            data={Array []}
+            disableVirtualization={false}
+            getItem={[Function]}
+            getItemCount={[Function]}
+            getItemLayout={[Function]}
+            horizontal={false}
+            initialNumToRender={2}
+            keyExtractor={[Function]}
+            maxToRenderPerBatch={10}
+            name="LiveList"
+            numColumns={1}
+            onContentSizeChange={null}
+            onEndReachedThreshold={2}
+            onLayout={[MockFunction]}
+            onMomentumScrollBegin={[MockFunction]}
+            onMomentumScrollEnd={[MockFunction]}
+            onResponderGrant={[MockFunction]}
+            onResponderReject={[MockFunction]}
+            onResponderRelease={[MockFunction]}
+            onResponderTerminationRequest={[MockFunction]}
+            onScroll={[MockFunction]}
+            onScrollBeginDrag={[MockFunction]}
+            onScrollEndDrag={[MockFunction]}
+            onScrollShouldSetResponder={[MockFunction]}
+            onStartShouldSetResponder={[MockFunction]}
+            onStartShouldSetResponderCapture={[MockFunction]}
+            onTouchCancel={[MockFunction]}
+            onTouchEnd={[MockFunction]}
+            onTouchMove={[MockFunction]}
+            onTouchStart={[MockFunction]}
+            renderItem={[Function]}
+            renderScrollComponent={[Function]}
+            scrollBarThumbImage={null}
+            scrollEnabled={true}
+            scrollEventThrottle={50}
+            sendMomentumEvents={true}
+            snapToEnd={true}
+            snapToStart={true}
+            stickyHeaderIndices={Array []}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "overflow": "scroll",
+                },
+                undefined,
+              ]
+            }
+            updateCellsBatchingPeriod={50}
+            viewabilityConfigCallbackPairs={Array []}
+            windowSize={21}
+          >
+            <ScrollContentData
+              collapsable={false}
+              onLayout={[MockFunction]}
+              style={
+                Array [
+                  false,
+                  undefined,
+                ]
+              }
+            />
+          </ListRef>
+          <ViewRef
+            name="LiveList"
+            onCompositionDidLoad={[Function]}
+            onTimelinesLoaded={[Function]}
+          />
+        </Composition>
+      </View>
+    </ScrollContentData>
+  </ListRef>
+  <ViewRef
+    name="Stack"
+    onCompositionDidLoad={[Function]}
+    onTimelinesLoaded={[Function]}
+  />
+  <ViewRef
+    name="Nav"
+    onCompositionDidLoad={[Function]}
+    onTimelinesLoaded={[Function]}
+  >
+    <TimelineRef
+      loop={false}
+      name="In"
+      onAborted={[Function]}
+      onCompleted={[Function]}
+      onCompletedForward={[Function]}
+      onCompletedReverse={[Function]}
+      onCompositionDidLoad={[Function]}
+      onPaused={[Function]}
+      onPausedForward={[Function]}
+      onPausedReverse={[Function]}
+      onPlay={[Function]}
+      onPlayForward={[Function]}
+      onPlayReverse={[Function]}
+      onStarted={[Function]}
+      onStartedForward={[Function]}
+      onStartedReverse={[Function]}
+    />
+    <TimelineRef
+      loop={false}
+      name="Out"
+      onAborted={[Function]}
+      onCompleted={[Function]}
+      onCompletedForward={[Function]}
+      onCompletedReverse={[Function]}
+      onCompositionDidLoad={[Function]}
+      onPaused={[Function]}
+      onPausedForward={[Function]}
+      onPausedReverse={[Function]}
+      onPlay={[Function]}
+      onPlayForward={[Function]}
+      onPlayReverse={[Function]}
+      onStarted={[Function]}
+      onStartedForward={[Function]}
+      onStartedReverse={[Function]}
+    />
+  </ViewRef>
+</Composition>
+`;

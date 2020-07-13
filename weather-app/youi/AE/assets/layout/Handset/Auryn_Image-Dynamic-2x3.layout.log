@@ -1,0 +1,58 @@
+activecomp {
+  name: "Auryn_Image-Dynamic-2x3"
+  width: 400
+  height: 600
+  defaultcameradistance: 555.555542
+  layer {
+    name: "ImageNode"
+    id: 1222
+    sourceid: 2532
+    transform {
+      anchorPoint {
+        x: 200
+        y: 300
+      }
+      scale {
+        x: 2.03
+        y: 2.03
+        z: 2.03
+      }
+      position {
+        x: 200
+        y: 300
+        z: 409
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  classname: "CYIImageView"
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "componentType"
+    value: "image"
+  }
+  properties {
+    key: "clip"
+    value: "true"
+  }
+}
+sources {
+  uid: 2532
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.94509804248809814
+    green: 0.94509804248809814
+    blue: 0.94509804248809814
+  }
+  width: 400
+  height: 600
+}

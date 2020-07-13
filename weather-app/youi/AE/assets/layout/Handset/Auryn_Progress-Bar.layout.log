@@ -1,0 +1,92 @@
+activecomp {
+  name: "Auryn_Progress-Bar"
+  width: 525
+  height: 8
+  defaultcameradistance: 729.166687
+  layer {
+    name: "BG"
+    id: 1847
+    sourceid: 690012748
+    transform {
+      anchorPoint {
+        x: 262.5
+        y: 4
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 262.5
+        y: 4
+      }
+      orientation {
+      }
+      opacity: 0.5
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "ProgressBar"
+    id: 1848
+    sourceid: 690012734
+    transform {
+      anchorPoint {
+        y: 4
+      }
+      scale {
+        y: 1
+        z: 1
+      }
+      position {
+        y: 4
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  classname: "CYIProgressBarView"
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "componentSubtype"
+    value: "progressBar"
+  }
+  properties {
+    key: "componentType"
+    value: "bar"
+  }
+}
+sources {
+  uid: 690012748
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.94509804248809814
+    green: 0.94509804248809814
+    blue: 0.94509804248809814
+  }
+  width: 525
+  height: 8
+}
+sources {
+  uid: 690012734
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.92549020051956177
+    green: 0.10980392247438431
+    blue: 0.14509804546833038
+  }
+  width: 525
+  height: 8
+}

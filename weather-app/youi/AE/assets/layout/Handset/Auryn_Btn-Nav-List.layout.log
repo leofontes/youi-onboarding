@@ -1,0 +1,136 @@
+activecomp {
+  name: "Auryn_Btn-Nav-List"
+  width: 225
+  height: 140
+  defaultcameradistance: 312.5
+  layer {
+    name: "title"
+    id: 690014383
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 101.595879
+        y: -0.000164031982
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 111.030121
+        y: 82.44
+      }
+      orientation {
+      }
+      opacity: 0.6
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 23
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-Bold"
+      boundsWidth: 200
+      boundsHeight: 33
+      isLabel: true
+      text: "Discover"
+      multiline: true
+      isAllCaps: true
+    }
+  }
+  layer {
+    name: "Nav-Icon-Toggled"
+    id: 690014384
+    sourceid: 690015906
+    transform {
+      anchorPoint {
+        x: 30
+        y: 27.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 112.25
+        y: 42
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Nav-Icon"
+    id: 690014385
+    sourceid: 690015921
+    transform {
+      anchorPoint {
+        x: 30
+        y: 27.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 112.25
+        y: 42
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  classname: "CYIPushButtonView"
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "componentSubtype"
+    value: "push"
+  }
+  properties {
+    key: "componentType"
+    value: "button"
+  }
+  childtemplates: "Auryn_Nav-Icon-Toggled"
+  childtemplates: "Auryn_Nav-Icon"
+}
+sources {
+  uid: 1
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Bold"
+  copy_source: true
+  file_name: "yi_Montserrat-Bold.otf"
+  style_name: "Bold"
+}
+sources {
+  uid: 690015906
+  name: "Auryn_Nav-Icon-Toggled.layout"
+  width: 60
+  height: 55
+  copy_source: true
+}
+sources {
+  uid: 690015921
+  name: "Auryn_Nav-Icon.layout"
+  width: 60
+  height: 55
+  copy_source: true
+}

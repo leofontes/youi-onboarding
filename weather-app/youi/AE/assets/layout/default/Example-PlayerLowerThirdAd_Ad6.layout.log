@@ -1,0 +1,89 @@
+activecomp {
+  name: "Example-PlayerLowerThirdAd_Ad6"
+  width: 1920
+  height: 360
+  defaultcameradistance: 2666.66675
+  layer {
+    name: "Ad-VAWAA"
+    id: 690014480
+    sourceid: 690014384
+    transform {
+      anchorPoint {
+        x: 960
+        y: 200
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 50
+        y: -100
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 690014481
+    properties {
+      key: "interactive"
+      value: "off"
+    }
+  }
+  layer {
+    name: "ScaleWidthPropBottomAnchor"
+    id: 690014481
+    sourceid: 376
+    transform {
+      anchorPoint {
+        x: 50
+        y: 100
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 360
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.71764705882352942
+    green: 0.71764705882352942
+    blue: 0.71764705882352942
+  }
+  properties {
+    key: "interactive"
+    value: "off"
+  }
+  properties {
+    key: "clip"
+    value: "false"
+  }
+  childtemplates: "Example-PlayerLowerThirdAd_Ad-VAWAA"
+}
+sources {
+  uid: 690014384
+  name: "Example-PlayerLowerThirdAd_Ad-VAWAA.layout"
+  width: 1920
+  height: 400
+  copy_source: true
+}
+sources {
+  uid: 376
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+}

@@ -1,0 +1,150 @@
+activecomp {
+  name: "Auryn_Nav-List"
+  width: 1002
+  height: 187
+  defaultcameradistance: 1391.66663
+  layer {
+    name: "Btn-Nav-List"
+    id: 690014353
+    sourceid: 690014383
+    transform {
+      anchorPoint {
+        x: 112.5
+        y: 70
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 781
+        y: 93.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    properties {
+      key: "placeholder"
+      value: "true"
+    }
+  }
+  layer {
+    name: "Btn-Nav-List"
+    id: 690014354
+    sourceid: 690014383
+    transform {
+      anchorPoint {
+        x: 112.5
+        y: 70
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 594.333313
+        y: 93.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    properties {
+      key: "placeholder"
+      value: "true"
+    }
+  }
+  layer {
+    name: "Btn-Nav-List"
+    id: 690014355
+    sourceid: 690014383
+    transform {
+      anchorPoint {
+        x: 112.5
+        y: 70
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 407.666656
+        y: 93.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    properties {
+      key: "placeholder"
+      value: "true"
+    }
+  }
+  layer {
+    name: "Btn-Nav-List"
+    id: 690014356
+    sourceid: 690014383
+    transform {
+      anchorPoint {
+        x: 112.5
+        y: 70
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 221
+        y: 93.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    properties {
+      key: "placeholder"
+      value: "true"
+    }
+  }
+  classname: "CYIListView"
+  bgcolor {
+    alpha: 1
+  }
+  properties {
+    key: "componentSubtype"
+    value: "streaming"
+  }
+  properties {
+    key: "componentType"
+    value: "list"
+  }
+  properties {
+    key: "useComponentScrollingView"
+    value: "true"
+  }
+  properties {
+    key: "insert-after-layer-id"
+    value: "-1"
+  }
+  childtemplates: "Auryn_Btn-Nav-List"
+}
+sources {
+  uid: 690014383
+  name: "Auryn_Btn-Nav-List.layout"
+  width: 225
+  height: 140
+  copy_source: true
+}

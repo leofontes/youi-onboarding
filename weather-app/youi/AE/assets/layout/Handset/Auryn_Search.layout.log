@@ -1,0 +1,296 @@
+activecomp {
+  name: "Auryn_Search"
+  width: 1080
+  height: 1920
+  defaultcameradistance: 1500
+  layer {
+    name: "Layout-List-Search"
+    id: 1860
+    sourceid: 690016990
+    transform {
+      anchorPoint {
+        x: 540
+        y: 1920
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 540.612488
+        y: 1941.625
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 1867
+  }
+  layer {
+    name: "Popular Shows 2"
+    id: 1861
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 2.92556763
+        y: 32.8076935
+      }
+      scale {
+        x: 1.77777767
+        y: 1.77777767
+        z: 1
+      }
+      position {
+        x: 87.1394348
+        y: 889.944275
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      fontSize: 35
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-Bold"
+      boundsWidth: 880
+      boundsHeight: 68
+      isLabel: true
+      text: "Popular Shows"
+      multiline: true
+    }
+    parentid: 1866
+  }
+  layer {
+    name: "TextInput"
+    id: 1862
+    sourceid: 1920
+    transform {
+      anchorPoint {
+        x: 499
+        y: 63
+      }
+      scale {
+        x: 1.77777767
+        y: 1.77777767
+        z: 1.77777767
+      }
+      position {
+        x: 49.0444336
+        y: 453.266663
+        z: 205
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 1865
+    properties {
+      key: "layoutable"
+      value: "false"
+    }
+  }
+  layer {
+    name: "Search"
+    id: 1863
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 331
+        y: 32
+      }
+      scale {
+        x: 1.77777767
+        y: 1.77777767
+        z: 1
+      }
+      position {
+        x: 51.72
+        y: 29
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 44
+      fontColor {
+        alpha: 1
+        red: 0.95293992757797241
+        green: 0.95293992757797241
+        blue: 0.95293992757797241
+      }
+      fontName: "Montserrat-SemiBold"
+      boundsWidth: 662
+      boundsHeight: 64
+      isLabel: true
+      text: "Search"
+      multiline: true
+      isAllCaps: true
+    }
+    parentid: 1865
+  }
+  layer {
+    name: "Btn-Back"
+    id: 1864
+    sourceid: 305
+    transform {
+      anchorPoint {
+      }
+      scale {
+        x: 1.77777767
+        y: 1.77777767
+        z: 1
+      }
+      position {
+        x: 32
+        y: -91
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 1866
+    properties {
+      key: "layoutable"
+      value: "false"
+    }
+  }
+  layer {
+    name: "ScaleWidthPropTopAnchor"
+    id: 1865
+    sourceid: 1480
+    transform {
+      anchorPoint {
+        x: 50
+      }
+      scale {
+        x: 0.5625
+        y: 0.5625
+        z: 1
+      }
+      position {
+        x: 540
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "ScaleWidthPropTopLeftAnchor"
+    id: 1866
+    sourceid: 1480
+    transform {
+      anchorPoint {
+      }
+      scale {
+        x: 0.5625
+        y: 0.5625
+        z: 1
+      }
+      position {
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "SizingAnchor"
+    id: 1867
+    sourceid: 1480
+    transform {
+      anchorPoint {
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "gravity"
+    value: "left"
+  }
+  properties {
+    key: "rows"
+    value: "2"
+  }
+  childtemplates: "Auryn_Layout-List-Search"
+  childtemplates: "Auryn_TextInput"
+  childtemplates: "Auryn_Btn-Back"
+}
+sources {
+  uid: 690016990
+  name: "Auryn_Layout-List-Search.layout"
+  width: 1080
+  height: 1920
+  copy_source: true
+}
+sources {
+  uid: 2
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Bold"
+  copy_source: true
+  file_name: "yi_Montserrat-Bold.otf"
+  style_name: "Bold"
+}
+sources {
+  uid: 1920
+  name: "Auryn_TextInput.layout"
+  width: 998
+  height: 126
+  copy_source: true
+}
+sources {
+  uid: 4
+  srctype: AE_FONT_SRC
+  name: "Montserrat-SemiBold"
+  copy_source: true
+  file_name: "yi_Montserrat-SemiBold.otf"
+  style_name: "SemiBold"
+}
+sources {
+  uid: 305
+  name: "Auryn_Btn-Back.layout"
+  width: 100
+  height: 100
+  copy_source: true
+}
+sources {
+  uid: 1480
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+}

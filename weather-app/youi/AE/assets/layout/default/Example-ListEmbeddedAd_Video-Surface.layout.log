@@ -1,0 +1,14 @@
+activecomp {
+  name: "Example-ListEmbeddedAd_Video-Surface"
+  width: 1920
+  height: 1080
+  defaultcameradistance: 2666.66675
+  classname: "CYIVideoSurfaceView"
+  bgcolor {
+    alpha: 1
+  }
+  properties {
+    key: "componentType"
+    value: "videoSurface"
+  }
+}

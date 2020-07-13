@@ -1,0 +1,127 @@
+activecomp {
+  name: "Auryn_Btn-Poster-Large"
+  width: 490
+  height: 750
+  defaultcameradistance: 680.555542
+  layer {
+    name: "Background"
+    id: 838
+    sourceid: 2420
+    transform {
+      anchorPoint {
+        x: 200
+        y: 300
+      }
+      scale {
+        x: 1.25
+        y: 1.25
+        z: 1
+      }
+      position {
+        x: 245
+        y: 375
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Image-Dynamic"
+    id: 839
+    sourceid: 1222
+    transform {
+      anchorPoint {
+        x: 200
+        y: 300
+      }
+      scale {
+        x: 1.25
+        y: 1.25
+        z: 1
+      }
+      position {
+        x: 245
+        y: 375
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "PlayIcon.png"
+    id: 840
+    sourceid: 690015184
+    transform {
+      anchorPoint {
+        x: 38
+        y: 38
+      }
+      scale {
+        x: 1.66
+        y: 1.66
+        z: 1
+      }
+      position {
+        x: 245
+        y: 375
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  classname: "CYIPushButtonView"
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "componentSubtype"
+    value: "push"
+  }
+  properties {
+    key: "componentType"
+    value: "button"
+  }
+  properties {
+    key: "clip"
+    value: "true"
+  }
+  childtemplates: "Auryn_Image-Dynamic-2x3"
+}
+sources {
+  uid: 2420
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+  }
+  width: 400
+  height: 600
+}
+sources {
+  uid: 1222
+  name: "Auryn_Image-Dynamic-2x3.layout"
+  width: 400
+  height: 600
+  copy_source: true
+}
+sources {
+  uid: 690015184
+  srctype: AE_IMAGE_SRC
+  name: "PlayIcon.png"
+  width: 76
+  height: 76
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}

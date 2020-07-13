@@ -1,0 +1,217 @@
+activecomp {
+  name: "Example-ListEmbeddedAd_Coupon-Container"
+  width: 483
+  height: 540
+  defaultcameradistance: 670.833313
+  layer {
+    name: "URL-Text"
+    id: 690015321
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 131.5
+        y: 15
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 49.8887634
+        y: 246
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 27
+      fontColor {
+        alpha: 1
+        red: 0.35686004161834717
+        green: 0.35686004161834717
+        blue: 0.35686004161834717
+      }
+      fontName: "BrandonGrotesque-Medium"
+      boundsWidth: 263
+      boundsHeight: 30
+      isLabel: true
+      text: "vawaa.com/redeem"
+      multiline: true
+    }
+    parentid: 690015325
+    classname: "CYISDFAtlasTextSceneNode"
+  }
+  layer {
+    name: "Coupon-Code-Border.png"
+    id: 690015322
+    sourceid: 204
+    transform {
+      anchorPoint {
+        x: 156.5
+        y: 52.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 49.3503456
+        y: 130.095795
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 690015325
+  }
+  layer {
+    name: "Coupon-Code"
+    id: 690015323
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 155
+        y: 50
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 50.7024574
+        y: 163.820633
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 49
+      fontColor {
+        alpha: 1
+        red: 1
+        green: 0.40000000596046448
+        blue: 0.41961002349853516
+      }
+      fontName: "BrandonGrotesque-Bold"
+      boundsWidth: 310
+      boundsHeight: 100
+      isLabel: true
+      text: "R8NW9Z"
+      multiline: true
+    }
+    parentid: 690015325
+    classname: "CYISDFAtlasTextSceneNode"
+  }
+  layer {
+    name: "Text"
+    id: 690015324
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 208
+        y: 76
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 50.9528809
+        y: 44
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 27
+      fontColor {
+        alpha: 1
+        red: 0.35686004161834717
+        green: 0.35686004161834717
+        blue: 0.35686004161834717
+      }
+      fontName: "BrandonGrotesque-Medium"
+      boundsWidth: 416
+      boundsHeight: 152
+      isLabel: true
+      text: "Get $20 off your first cooking\rexperience on Vawaa."
+      multiline: true
+    }
+    parentid: 690015325
+    classname: "CYISDFAtlasTextSceneNode"
+  }
+  layer {
+    name: "ScaleHeightPropCenterAnchor"
+    id: 690015325
+    sourceid: 286
+    transform {
+      anchorPoint {
+        x: 50
+        y: 50
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 241.5
+        y: 270
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+  }
+}
+sources {
+  uid: 1
+  srctype: AE_FONT_SRC
+  name: "BrandonGrotesque-Medium"
+  copy_source: true
+  file_name: "yi_Brandon Grotesque-Medium.otf"
+  style_name: "Medium"
+}
+sources {
+  uid: 204
+  srctype: AE_IMAGE_SRC
+  name: "Coupon-Code-Border.png"
+  width: 313
+  height: 105
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 3
+  srctype: AE_FONT_SRC
+  name: "BrandonGrotesque-Bold"
+  copy_source: true
+  file_name: "yi_Brandon Grotesque-Bold.otf"
+  style_name: "Bold"
+}
+sources {
+  uid: 286
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+}

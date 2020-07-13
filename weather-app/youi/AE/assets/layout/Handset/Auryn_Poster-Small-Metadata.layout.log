@@ -1,0 +1,148 @@
+activecomp {
+  name: "Auryn_Poster-Small-Metadata"
+  width: 473
+  height: 120
+  defaultcameradistance: 656.944458
+  layer {
+    name: "Text-Details"
+    id: 690016227
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 225.269913
+        y: 31.8703308
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 255.938293
+        y: 100.870331
+      }
+      orientation {
+      }
+      opacity: 0.5
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      fontSize: 34
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-SemiBold"
+      boundsWidth: 409
+      boundsHeight: 44
+      isLabel: true
+      multiline: true
+      ellipsis: true
+    }
+    properties {
+      key: "text-placeholder"
+      value: "true"
+    }
+    properties {
+      key: "text-overflow"
+      value: "ellipsis"
+    }
+  }
+  layer {
+    name: "Text-Title"
+    id: 690016228
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 226.352768
+        y: 33.2998085
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 256.204132
+        y: 50
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      fontSize: 34
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-Bold"
+      boundsWidth: 412
+      boundsHeight: 90
+      isLabel: true
+      multiline: true
+      ellipsis: true
+    }
+    properties {
+      key: "text-placeholder"
+      value: "true"
+    }
+    properties {
+      key: "text-overflow"
+      value: "ellipsis"
+    }
+    properties {
+      key: "margin-top"
+      value: "20"
+    }
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "clip"
+    value: "true"
+  }
+  properties {
+    key: "spacing"
+    value: "0"
+  }
+  properties {
+    key: "layout"
+    value: "CYIColumnLayout"
+  }
+  properties {
+    key: "padding-left"
+    value: "38"
+  }
+  properties {
+    key: "height"
+    value: "fit-content"
+  }
+}
+sources {
+  uid: 1
+  srctype: AE_FONT_SRC
+  name: "Montserrat-SemiBold"
+  copy_source: true
+  file_name: "yi_Montserrat-SemiBold.otf"
+  style_name: "SemiBold"
+}
+sources {
+  uid: 2
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Bold"
+  copy_source: true
+  file_name: "yi_Montserrat-Bold.otf"
+  style_name: "Bold"
+}

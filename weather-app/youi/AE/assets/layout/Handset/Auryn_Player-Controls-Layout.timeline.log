@@ -1,0 +1,158 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690014663
+  targetname: "Player-Scrubber-Container"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  targetid: 690014663
+  targetname: "Player-Scrubber-Container"
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 960
+    fvalue2: 962
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 1
+    inttype: AE_INTERP_HOLD
+    fvalue1: 960
+    fvalue2: 962
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 1.5
+    inttype: AE_INTERP_HOLD
+    fvalue1: 960
+    fvalue2: 962
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 2
+    inttype: AE_INTERP_HOLD
+    fvalue1: 960
+    fvalue2: 1091
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 2.5
+    inttype: AE_INTERP_HOLD
+    fvalue1: 960
+    fvalue2: 1091
+  }
+  trackName: "Position"
+}
+tracks {
+  binding: OPACITY
+  targetid: 690014663
+  targetname: "Player-Scrubber-Container"
+  keytimes {
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 1
+    inttype: AE_INTERP_HOLD
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 1.5
+    inttype: AE_INTERP_HOLD
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 2
+    inttype: AE_INTERP_HOLD
+    fvalue1: 1
+  }
+  keytimes {
+    timeOffset: 2.5
+    inttype: AE_INTERP_HOLD
+    fvalue1: 1
+  }
+  trackName: "Opacity"
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 690014664
+  targetname: "Video-TextDetails"
+  keytimes {
+    datatype: AE_INT_DATA
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  targetid: 690014664
+  targetname: "Video-TextDetails"
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 790
+    fvalue2: 696
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 1
+    inttype: AE_INTERP_HOLD
+    fvalue1: 790
+    fvalue2: 696
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 1.5
+    inttype: AE_INTERP_HOLD
+    fvalue1: 790
+    fvalue2: 696
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 2
+    inttype: AE_INTERP_HOLD
+    fvalue1: 790
+    fvalue2: 816
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 2.5
+    inttype: AE_INTERP_HOLD
+    fvalue1: 790
+    fvalue2: 816
+  }
+  trackName: "Position"
+}
+markers {
+  starttime: 1
+  duration: 0.5
+  name: "Set-VOD"
+  tracksSelection {
+    targetid: 690014663
+  }
+  tracksSelection {
+    targetid: 690014663
+    binding: OPACITY
+  }
+  tracksSelection {
+    targetid: 690014664
+  }
+}
+markers {
+  starttime: 2
+  duration: 0.5
+  name: "Set-Live"
+  tracksSelection {
+    targetid: 690014663
+  }
+  tracksSelection {
+    targetid: 690014663
+    binding: OPACITY
+  }
+  tracksSelection {
+    targetid: 690014664
+  }
+}

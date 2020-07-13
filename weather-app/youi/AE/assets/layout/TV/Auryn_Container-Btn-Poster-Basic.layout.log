@@ -1,0 +1,45 @@
+activecomp {
+  name: "Auryn_Container-Btn-Poster-Basic"
+  width: 274
+  height: 410
+  defaultcameradistance: 380.555542
+  layer {
+    name: "Btn-Poster-Basic"
+    id: 690016912
+    sourceid: 690016883
+    transform {
+      anchorPoint {
+        x: 137
+        y: 205
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 137
+        y: 205
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  childtemplates: "Auryn_Btn-Poster-Basic"
+}
+sources {
+  uid: 690016883
+  name: "Auryn_Btn-Poster-Basic.layout"
+  width: 274
+  height: 410
+  copy_source: true
+}

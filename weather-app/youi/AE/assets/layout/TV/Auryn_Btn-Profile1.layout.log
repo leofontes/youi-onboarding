@@ -1,0 +1,344 @@
+activecomp {
+  name: "Auryn_Btn-Profile1"
+  width: 250
+  height: 400
+  defaultcameradistance: 347.222229
+  layer {
+    name: "Profile-Buster.png"
+    id: 259618
+    sourceid: 259949
+    transform {
+      anchorPoint {
+        x: 204.5
+        y: 204.5
+      }
+      scale {
+        x: 0.5789
+        y: 0.5789
+        z: 1
+      }
+      position {
+        x: 125
+        y: 110
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Circle-Btn-Profile.png"
+    id: 259619
+    sourceid: 690016368
+    transform {
+      anchorPoint {
+        x: 207.5
+        y: 207.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 204.5
+        y: 204.5
+      }
+      orientation {
+      }
+      opacity: 0.02
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 259618
+  }
+  layer {
+    name: "Name"
+    id: 259620
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 123
+        y: 21
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 123
+        y: 357
+      }
+      orientation {
+      }
+      opacity: 0.7
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 43
+      fontColor {
+        alpha: 1
+        red: 1
+        green: 1
+        blue: 1
+      }
+      fontName: "Montserrat-ExtraBold"
+      boundsWidth: 249
+      boundsHeight: 42
+      isLabel: true
+      text: "Robert"
+      multiline: true
+      ellipsis: true
+    }
+    properties {
+      key: "text-overflow"
+      value: "ellipsis"
+    }
+  }
+  layer {
+    name: "Name-Focused"
+    id: 259621
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 282
+        y: 55
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 123
+        y: 372
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 100
+      fontColor {
+        alpha: 1
+        red: 1
+        green: 1
+        blue: 1
+      }
+      fontName: "Montserrat-ExtraBold"
+      boundsWidth: 567
+      boundsHeight: 112
+      isLabel: true
+      text: "Robert"
+      multiline: true
+      ellipsis: true
+    }
+    properties {
+      key: "text-overflow"
+      value: "ellipsis"
+    }
+  }
+  layer {
+    name: "Active User"
+    id: 259622
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 123
+        y: 21
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 123
+        y: 428
+      }
+      orientation {
+      }
+      opacity: 0.5
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 19
+      fontColor {
+        alpha: 1
+        red: 0.94510000944137573
+        green: 0.94510000944137573
+        blue: 0.94510000944137573
+      }
+      fontName: "Montserrat-Bold"
+      boundsWidth: 249
+      boundsHeight: 25
+      isLabel: true
+      multiline: true
+      isAllCaps: true
+    }
+    properties {
+      key: "text-placeholder"
+      value: "true"
+    }
+  }
+  layer {
+    name: "Icon-Check-Profile.png"
+    id: 259623
+    sourceid: 690016377
+    transform {
+      anchorPoint {
+        x: 17.5
+        y: 17.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 61
+        y: -77
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 259624
+  }
+  layer {
+    name: "Focus_Ctrl"
+    id: 259624
+    sourceid: 690016380
+    transform {
+      anchorPoint {
+      }
+      scale {
+        x: 1.72741413
+        y: 1.72741413
+        z: 1
+      }
+      position {
+        x: 204.5
+        y: 204.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 259618
+  }
+  layer {
+    name: "Icon-Check-Profile-Focused.png"
+    id: 259625
+    sourceid: 690016376
+    transform {
+      anchorPoint {
+        x: 23.5
+        y: 23.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 312.872253
+        y: 74.4891205
+      }
+      orientation {
+      }
+    }
+    acceptsshadows: true
+    acceptslights: true
+    parentid: 259619
+  }
+  classname: "CYIPushButtonView"
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "componentSubtype"
+    value: "push"
+  }
+  properties {
+    key: "componentType"
+    value: "button"
+  }
+}
+sources {
+  uid: 259949
+  srctype: AE_IMAGE_SRC
+  name: "Profile-Buster.png"
+  width: 409
+  height: 409
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 690016368
+  srctype: AE_IMAGE_SRC
+  name: "Circle-Btn-Profile.png"
+  width: 415
+  height: 415
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 3
+  srctype: AE_FONT_SRC
+  name: "Montserrat-ExtraBold"
+  copy_source: true
+  file_name: "yi_Montserrat-ExtraBold.otf"
+  style_name: "ExtraBold"
+}
+sources {
+  uid: 4
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Bold"
+  copy_source: true
+  file_name: "yi_Montserrat-Bold.otf"
+  style_name: "Bold"
+}
+sources {
+  uid: 690016377
+  srctype: AE_IMAGE_SRC
+  name: "Icon-Check-Profile.png"
+  width: 35
+  height: 35
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 690016380
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+}
+sources {
+  uid: 690016376
+  srctype: AE_IMAGE_SRC
+  name: "Icon-Check-Profile-Focused.png"
+  width: 47
+  height: 47
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}

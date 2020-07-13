@@ -1,0 +1,265 @@
+activecomp {
+  name: "Auryn_Btn-Backdrop-Large"
+  width: 1080
+  height: 1080
+  defaultcameradistance: 1500
+  layer {
+    name: "Black Solid 7"
+    id: 345
+    sourceid: 378
+    transform {
+      anchorPoint {
+        x: 533.5
+        y: 600
+      }
+      scale {
+        x: 1.8
+        y: 1.8
+        z: 1
+      }
+      position {
+        x: 540
+        y: 1080
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Image-Dynamic"
+    id: 346
+    sourceid: 1246
+    transform {
+      anchorPoint {
+        x: 522
+        y: 288
+      }
+      scale {
+        x: 1.875
+        y: 1.875
+        z: 1
+      }
+      position {
+        x: 540
+        y: 540
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Gradient-Player_2.png"
+    id: 347
+    sourceid: 96
+    transform {
+      anchorPoint {
+        x: 0.5
+        y: 548
+      }
+      scale {
+        x: 2039.21716
+        y: 0.660246074
+        z: 1
+      }
+      position {
+        x: 540
+        y: 1080
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  layer {
+    name: "Text-Details"
+    id: 348
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 248.5
+        y: 40.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 501.76
+        y: 989.5
+      }
+      orientation {
+      }
+      opacity: 0.76
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      fontSize: 26
+      fontColor {
+        alpha: 1
+        red: 0.92548996210098267
+        green: 0.92548996210098267
+        blue: 0.92548996210098267
+      }
+      fontName: "Montserrat-Bold"
+      boundsWidth: 953
+      boundsHeight: 83
+      isLabel: true
+      multiline: true
+      ellipsis: true
+    }
+    properties {
+      key: "text-placeholder"
+      value: "true"
+    }
+    properties {
+      key: "text-overflow"
+      value: "ellipsis"
+    }
+  }
+  layer {
+    name: "Text-Title"
+    id: 349
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 248.5
+        y: 40.5
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 500.76
+        y: 925.5
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    textinfo {
+      fontSize: 49
+      fontColor {
+        alpha: 1
+        red: 0.92548996210098267
+        green: 0.92548996210098267
+        blue: 0.92548996210098267
+      }
+      fontName: "Montserrat-Bold"
+      boundsWidth: 953
+      boundsHeight: 54
+      isLabel: true
+      multiline: true
+      ellipsis: true
+    }
+    properties {
+      key: "text-placeholder"
+      value: "true"
+    }
+    properties {
+      key: "text-overflow"
+      value: "ellipsis"
+    }
+  }
+  layer {
+    name: "PlayIcon.png"
+    id: 350
+    sourceid: 690015184
+    transform {
+      anchorPoint {
+        y: 76
+      }
+      scale {
+        x: 1.54
+        y: 1.54
+        z: 1
+      }
+      position {
+        x: 90
+        y: 988
+      }
+      orientation {
+      }
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+  }
+  classname: "CYIPushButtonView"
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  properties {
+    key: "componentSubtype"
+    value: "push"
+  }
+  properties {
+    key: "componentType"
+    value: "button"
+  }
+  properties {
+    key: "clip"
+    value: "true"
+  }
+  childtemplates: "Auryn_Image-Dynamic-Full"
+}
+sources {
+  uid: 378
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+  }
+  width: 1067
+  height: 600
+}
+sources {
+  uid: 1246
+  name: "Auryn_Image-Dynamic-Full.layout"
+  width: 1044
+  height: 576
+  copy_source: true
+}
+sources {
+  uid: 96
+  srctype: AE_IMAGE_SRC
+  name: "Gradient-Player_2.png"
+  width: 1
+  height: 548
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 4
+  srctype: AE_FONT_SRC
+  name: "Montserrat-Bold"
+  copy_source: true
+  file_name: "yi_Montserrat-Bold.otf"
+  style_name: "Bold"
+}
+sources {
+  uid: 690015184
+  srctype: AE_IMAGE_SRC
+  name: "PlayIcon.png"
+  width: 76
+  height: 76
+  numberOfFrames: 1
+  loops: 1
+  copy_source: true
+}
